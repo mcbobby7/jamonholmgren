@@ -12,23 +12,28 @@ export default () => (
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta charSet='utf-8' />
       <link rel='shortcut icon' href='/static/favicon.ico' />
-      <link
+      {/* <link
         rel='stylesheet'
         type='text/css'
         href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700'
+      /> */}
+      <link
+        rel='stylesheet'
+        type='text/css'
+        href='//fonts.googleapis.com/css?family=Average+Sans:400|Rancho:400|Source+Sans+Pro:400,400italic,700normal,700italic'
       />
 
     </Head>
     <style jsx global>{`
       body {
         {/* font-family: Georgia, Cambria, 'Times New Roman', Times, serif; */}
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        padding: 0;
+        font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+        font-size: 16px;
+        padding: 40px 10px;
         margin: 0;
         line-height: 1.5em;
-        font-weight: 200;
-        background-color: #f2f2f2;
+        {/* font-weight: 100; */}
+        background-color: white;
       }
       * {
         box-sizing: border-box;

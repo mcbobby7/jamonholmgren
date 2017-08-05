@@ -13,9 +13,8 @@ export default ({ children }) => (
     <style jsx>{`
       .main {
         margin: auto;
-        padding: 40px;
         height: 100vh;
-        max-width: 1000px;
+        max-width: 1150px;
       }
 
       .page {
@@ -25,8 +24,13 @@ export default ({ children }) => (
 
       @media (max-width: 750px) {
         .main {
-          padding: 10px;
+          padding: 5px;
           width: auto;
+        }
+        img {
+          width: 320px;
+          display: block;
+          margin 0 auto;
         }
       }
     `}</style>

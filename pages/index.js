@@ -5,7 +5,33 @@ import Page from '../components/page'
 export default () => {
   return (
     <Page>
-      <img src='/static/jamonholmgren.jpg' alt='Portrait photo of Jamon Holmgren, quite handsome, or so my wife tells me' id='jamon' />
+      <div class='photo-wall'>
+        <img src='/static/family.jpg' alt='My family' />
+        <img src='/static/basketball.jpg' alt='Playing some pick up basketball' />
+        <img src='/static/stage.jpg' alt='At Chain React 2017' />
+      </div>
+
+      <p className='opening'>
+        I've loved software for a very long time.
+      </p>
+
+      <p>
+        When my dad brought home a 286 in 1991, I was enthralled. I watched as he painstakingly typed and simultaneously repeated `cd backslash games enter` and saw the screen scroll and change. It was mind-blowing to a ten year old.
+      </p>
+
+      <p>
+        A couple years later, a middle school math teacher gave me a book on BASIC programming, and said she had noticed I liked computers. At home, I discovered that our new 486DX computer had QBasic. I was in heaven.
+      </p>
+
+      <p>
+        That has led to a life-long obsession with coding. The journey has taken me from running large excavation equipment to framing houses to 3D CAD design, until I eventually landed on a career in software.
+      </p>
+
+      <p>
+        Read more about it in <Link prefetch href='/beginnings'>Beginnings</Link>.
+      </p>
+
+      <hr />
 
       <p>
         I’m Jamon Holmgren, a software developer, business owner, husband, and father of four, located near Portland, Oregon, in SW Washington state.
@@ -28,9 +54,9 @@ export default () => {
       </div>
 
       <style jsx>{`
-        img#jamon {
-          display: block;
-          margin: 30px auto;
+        .opening {
+          font-weight: normal;
+          font-style: italic;
         }
 
         .social-icons {
