@@ -29,7 +29,6 @@ export default () => (
         line-height: 1.5em;
         font-weight: 200;
         background-color: #f2f2f2;
-
       }
       * {
         box-sizing: border-box;
@@ -37,6 +36,7 @@ export default () => (
 
       h1 {
         font-weight: normal;
+        line-height: 1.25em;
       }
 
       a {
