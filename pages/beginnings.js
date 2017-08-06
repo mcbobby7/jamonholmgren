@@ -24,6 +24,11 @@ export default () => {
           <Link href='/now' prefetch>Read more about what I'm doing now</Link>
         </em>
       </p>
+      <p>
+        <em>
+          <Link href='/archive' prefetch>Archive of old blog posts I've kept around</Link>
+        </em>
+      </p>
       <style jsx>{`
         img {
           display: block;

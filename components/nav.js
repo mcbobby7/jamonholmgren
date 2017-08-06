@@ -29,7 +29,7 @@ export default () => (
     <Item href='/beginnings'>beginnings</Item>
     <Item href='/now'>now</Item>
     <Item href='/connect'>connect</Item>
-    
+
     <style jsx>{`
       ul {
         list-style-type: none;
