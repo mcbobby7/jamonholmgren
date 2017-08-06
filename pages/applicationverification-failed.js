@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Annoying iOS issues: ApplicationVerification Failed'>
       <h1>Annoying iOS issues: ApplicationVerification Failed</h1>
       <p><em>Published November 13, 2014</em></p>
       

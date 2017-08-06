@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='A React Pattern for your RubyMotion app'>
       <h1>A React Pattern for your RubyMotion app</h1>
       <p><em>Published March 15, 2015</em></p>
       

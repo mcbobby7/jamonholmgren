@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Up Next'>
       <h1>Up Next</h1>
       <p><em>Published September 2, 2015</em></p>
       

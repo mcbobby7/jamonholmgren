@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Deprecating ProMotion-form'>
       <h1>Deprecating ProMotion-form</h1>
       <p><em>Published November 20, 2015</em></p>
       <p>As of today, I'm deprecating <a href="https://github.com/infinitered/ProMotion-form">ProMotion-form</a>.</p>

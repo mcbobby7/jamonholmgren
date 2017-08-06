@@ -6,12 +6,14 @@ Router.onRouteChangeStart = () => NProgress.start()
 Router.onRouteChangeComplete = () => NProgress.done()
 Router.onRouteChangeError = () => NProgress.done()
 
-export default () => (
+export default (props) => (
   <div>
     <Head>
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta charSet='utf-8' />
       <link rel='shortcut icon' href='/static/favicon.ico' />
+      <title>{props.title || 'Personal website'} - Jamon Holmgren</title>
+      <meta name='description' content='{props.description}' />
       {/* <link
         rel='stylesheet'
         type='text/css'

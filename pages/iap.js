@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='In-App Purchases in RubyMotion'>
       <h1>In-App Purchases in RubyMotion</h1>
       <p><em>Published February 12, 2015</em></p>
       

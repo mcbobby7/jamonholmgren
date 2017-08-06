@@ -1,13 +1,13 @@
 import Header from './header'
 import Meta from './meta'
 
-export default ({ children }) => (
+export default (props) => (
   <div className='main'>
-    <Meta />
+    <Meta title={props.title} description={props.description} />
     <Header />
 
     <div className='page'>
-      {children}
+      {props.children}
     </div>
 
     <style jsx>{`

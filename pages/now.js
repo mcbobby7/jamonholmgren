@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='What I am doing now'>
       <h1>What I'm doing now</h1>
 
       <p><em>Last updated July 15, 2017.</em></p>
@@ -20,7 +20,7 @@ export default () => {
       <ul>
         <li>Just wrapped up <a href='https://infinite.red/ChainReactConf'>a React Native conference</a></li>
         <li>Been working out regularly</li>
-        <li>Dropped 30 lbs in the last year</li>
+        <li><a href='https://www.facebook.com/photo.php?fbid=10155541585472090&set=a.88655052089.107840.727792089&type=3&theater'>Dropped 30 lbs in the last year</a></li>
       </ul>
     </Page>
   )

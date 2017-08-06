@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Ten Years'>
       <h1>Ten Years</h1>
       <p><em>Published August 1, 2015</em></p>
       
@@ -88,34 +88,8 @@ export default () => {
 
       <p>Thank you to the following people for spending at least some part of your life working for my little endeavor. It still means a lot to me. (If I missed anyone it’s my fault, not yours.)</p>
 
-      <p>I’ve been lucky to have very low turnover, so the alumni list is actually shorter than the current list. That’s pretty amazing, to me.</p>
-
-      <p>ClearSight Alumni:</p>
-
-      <p><strong>Daniel Berkompas</strong> - forward thinking, uber-talented /
-      <strong>Drew Holmgren</strong> - getting things done at frenetic speed /
-      <strong>Isaac Holmgren</strong> - always seeing the big picture /
-      <strong>Lucas Holmgren</strong> - multi-talented, doing anything we needed /
-      <strong>Meredith Wuori</strong> - truly professional and effective /
-      <strong>Michael Berkompas</strong> - taking on any challenge /
-      <strong>Mike Waszazak</strong> - raising the bar for everyone /
-      <strong>Nick Kandoll</strong> - so many laughs /
-      <strong>Shane Holmgren</strong> - fastest programmer ever</p>
-
-      <p>And those of you still standing:</p>
-
-      <p><strong>AJ Robertson</strong> - rockstar in the making /
-      <strong>Carlin Isaacson</strong> - never gives up /
-      <strong>Denton Holmgren</strong> - loads of potential /
-      <strong>Jed Bartausky</strong> - everybody’s favorite manager /
-      <strong>Justin Huskey</strong> - excellence is a starting point /
-      <strong>Kevin VanGelder</strong> - committed and a friend /
-      <strong>Leon Kim</strong> - incredible engineer /
-      <strong>Ryan Linton</strong> - fast rising star /
-      <strong>Silas Matson</strong> - never forgets anything /
-      <strong>Yulian Glukhenko</strong> - always comes through /
-      <strong>Zachary Berkompas</strong> - better than advertised</p>
-
+      <p>Daniel Berkompas, Drew Holmgren, Isaac Holmgren, Lucas Holmgren, Meredith Wuori, Michael Berkompas, Mike Waszazak, Nick Kandoll, Shane Holmgren, Jessica Hori, Karl Von Der Luft, AJ Robertson, Carlin Isaacson, Denton Holmgren, Jed Bartausky, Justin Huskey, Kevin VanGelder, Leon Kim, Ryan Linton, Silas Matson, Yulian Glukhenko, Zachary Berkompas.</p>
+      
       <p>Contractors, professionals, mentors, and just a few of my awesome clients, in no particular order, who gave me a leg up at just the right time:</p>
 
       <p>Ed Holmgren, Phil Wilson, Bill Brassfield, Alice Johnson, Tim Sutinen, Josh Barrett, Julie Olson, Kelly Helmes, Amy Ruth, Lars Jarvi, Stacey Olson, Tim Haskins, Patrick Ezell, Chuck Bond, Jonathan Johnson, Jim Larsen, Todd Werth, Ken Miller, Mark Rickert, Gant Laborde, Laurent Sansonetti, Colin TA Gray, Tom Berkompas, Tim Santeford, Jeff Held, Ryan Kandoll, Ron and Elizabeth Holmgren (dad and mom), William Roselli (RIP)</p>

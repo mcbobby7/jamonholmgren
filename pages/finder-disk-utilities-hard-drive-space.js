@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Finder and Disk Utilities report different free space'>
       <h1>Finder and Disk Utilities report different free space</h1>
       <p><em>Published December 1, 2014</em></p>
       

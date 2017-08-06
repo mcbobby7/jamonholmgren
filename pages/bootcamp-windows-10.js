@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='How to use Bootcamp to run Windows 10 Preview on OS X Yosemite'>
       <h1>How to use Bootcamp to run Windows 10 Preview on OS X Yosemite</h1>
       <p><em>Published November 27, 2014</em></p>
       

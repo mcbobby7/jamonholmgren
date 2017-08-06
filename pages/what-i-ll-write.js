@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='What I will write'>
       <h1>What I'll write</h1>
       <p><em>Published December 11, 2013</em></p>
       

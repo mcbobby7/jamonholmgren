@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Live Reloading in RubyMotion'>
       <h1>Live Reloading in RubyMotion</h1>
       <p><em>Published April 14, 2015</em></p>
       

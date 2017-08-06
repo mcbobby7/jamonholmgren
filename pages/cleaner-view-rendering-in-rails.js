@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Cleaner View Rendering in Rails'>
       <h1>Cleaner View Rendering in Rails</h1>
       <p><em>Published February 11, 2015</em></p>
       

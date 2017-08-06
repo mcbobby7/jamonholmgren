@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='The personal website of Jamon'>
       <div class='photo-wall'>
         <img src='/static/family.jpg' alt='My family' />
         <img src='/static/basketball.jpg' alt='Playing some pick up basketball' />

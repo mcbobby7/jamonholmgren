@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='ProMotion 2.3 Notable Changes'>
       <h1>ProMotion 2.3 Notable Changes</h1>
       <p><em>Published April 3, 2015</em></p>
       

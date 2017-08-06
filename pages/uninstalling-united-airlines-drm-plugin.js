@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Uninstalling United Airline "Panasonic DRM plugin"'>
       <h1>Uninstalling United Airline's "Panasonic DRM plugin"</h1>
       <p><em>Published July 20, 2015</em></p>
       

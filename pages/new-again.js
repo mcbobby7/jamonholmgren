@@ -3,7 +3,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='New again'>
       <h1>
         Experiencing Facebook for the first time again, through my 75 year old mother-in-law’s eyes.
       </h1>

@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='What the hex?'>
       <h1>What the hex?</h1>
       <p><em>Published January 30, 2015</em></p>
       

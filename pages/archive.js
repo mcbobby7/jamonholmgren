@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Archived Posts'>
       <h1>Archived Posts</h1>
       <p>
         I rarely post articles on my personal website anymore, but here's an archive of old posts, so they don't disappear from the internet.

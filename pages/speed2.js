@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='RubyMotion Speed, Part 2'>
       <h1>RubyMotion Speed, Part 2</h1>
       <p><em>Published May 29, 2015</em></p>
       

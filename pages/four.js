@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Working four-day weeks'>
       <h1>Working four-day weeks</h1>
       <p><em>Published October 3, 2014</em></p>
       

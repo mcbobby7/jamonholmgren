@@ -4,7 +4,7 @@ import Page from '../components/page'
 
 export default () => {
   return (
-    <Page>
+    <Page title='Inspect UIWebView with Safari'>
       <h1>Inspect UIWebView with Safari</h1>
       <p><em>Published February 10, 2015</em></p>
       
