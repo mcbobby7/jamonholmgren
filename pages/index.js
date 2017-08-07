@@ -11,9 +11,9 @@ export default () => {
         <img src='/static/stage.jpg' alt='At Chain React 2017' />
       </div>
 
-      <p className='opening'>
+      <h2 className='opening'>
         I've loved software for a very long time.
-      </p>
+      </h2>
 
       <p>
         When my dad brought home a 286 in 1991, I was enthralled. I watched as he painstakingly typed and simultaneously repeated `cd backslash games enter` and saw the screen scroll and change. It was mind-blowing to a ten year old.
@@ -47,26 +47,10 @@ export default () => {
         If you want to see what I'm up to these days, check out my <Link prefetch href='/now'>Now page</Link>. If you're interested in my background, check out <Link prefetch href='/beginnings'>Beginnings</Link>.
       </p>
 
-      <div className='social-icons'>
-        <a href='https://twitter.com/jamonholmgren'><img src='/static/twitter.png' /></a>
-        <a href='https://github.com/jamonholmgren'><img src='/static/github.png' /></a>
-        <a href='https://facebook.com/jamon.holmgren'><img src='/static/facebook.png' /></a>
-      </div>
-
       <style jsx>{`
         .opening {
           font-weight: normal;
           font-style: italic;
-        }
-
-        .social-icons {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .social-icons img {
-          flex: 1;
         }
       `}</style>
     </Page>

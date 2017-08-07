@@ -13,7 +13,7 @@ export default (props) => (
       <meta charSet='utf-8' />
       <link rel='shortcut icon' href='/static/favicon.ico' />
       <title>{props.title || 'Personal website'} - Jamon Holmgren</title>
-      <meta name='description' content='{props.description}' />
+      <meta name='description' content={props.description} />
       {/* <link
         rel='stylesheet'
         type='text/css'

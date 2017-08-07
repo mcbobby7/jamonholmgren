@@ -70,13 +70,17 @@ export default () => {
       <p>
          That brings us to today. My role is Chief Operating Officer as well as co-CTO. I manage a portion of our projects as well as sales and developing partnerships and relationships with other businesses.
       </p>
-      
-      <p>
+      <img src='/static/jamon-family.jpg' alt='My family' id='jamon-family' />
+      <figcaption>My family - my wife Chyra, Cedric, Cally, Vanna, and Vessa</figcaption>
+      <p className='next-steps'>
         <em>
           <Link href='/now' prefetch>Read more about what I'm doing now</Link>
         </em>
-      </p>
-      <p>
+        &bull;
+        <em>
+          <Link href='/tech' prefetch>Check out the tech I'm currently working in or exploring</Link>
+        </em>
+        &bull;
         <em>
           <Link href='/archive' prefetch>Archive of old blog posts I've kept around</Link>
         </em>
@@ -93,6 +97,13 @@ export default () => {
           max-width: 500px;
           font-weight: 200;
           font-style: italic;
+        }
+        .next-steps {
+          text-align: center;
+        }
+        .next-steps em {
+          display: inline-block;
+          padding: 4px;
         }
       `}</style>
     </Page>

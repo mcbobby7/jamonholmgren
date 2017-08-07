@@ -10,6 +10,14 @@ export default (props) => (
       {props.children}
     </div>
 
+    <div className='social-icons'>
+      <a href='https://twitter.com/jamonholmgren'><img src='/static/twitter.png' /></a>
+      <a href='https://github.com/jamonholmgren'><img src='/static/github.png' /></a>
+      <a href='https://facebook.com/jamon.holmgren'><img src='/static/facebook.png' /></a>
+    </div>
+
+
+
     <style jsx>{`
       .main {
         margin: auto;
@@ -20,6 +28,16 @@ export default (props) => (
       .page {
         color: #000;
         padding: 3px 0px;
+      }
+
+      .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .social-icons img {
+        flex: 1;
       }
 
       @media (max-width: 750px) {
