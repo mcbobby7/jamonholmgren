@@ -22,7 +22,7 @@ export default (props) => (
       .main {
         margin: auto;
         height: 100vh;
-        max-width: 1150px;
+        max-width: 950px;
       }
 
       .page {
@@ -44,11 +44,6 @@ export default (props) => (
         .main {
           padding: 5px;
           width: auto;
-        }
-        img {
-          width: 320px;
-          display: block;
-          margin 0 auto;
         }
       }
     `}</style>

@@ -5,7 +5,7 @@ import Page from '../components/page'
 export default () => {
   return (
     <Page title='The personal website of Jamon'>
-      <div class='photo-wall'>
+      <div className='photo-wall'>
         <img src='/static/family.jpg' alt='My family' />
         <img src='/static/basketball.jpg' alt='Playing some pick up basketball' />
         <img src='/static/stage.jpg' alt='At Chain React 2017' />
@@ -16,7 +16,7 @@ export default () => {
       </h2>
 
       <p>
-        When my dad brought home a 286 in 1991, I was enthralled. I watched as he painstakingly typed and simultaneously repeated `cd backslash games enter` and saw the screen scroll and change. It was mind-blowing to a ten year old.
+        When my dad brought home a 286 in 1991, I was enthralled. I watched as he painstakingly typed and simultaneously repeated <code>cd backslash games enter</code> and saw the screen scroll and change. It was mind-blowing to a ten year old.
       </p>
 
       <p>
@@ -52,6 +52,24 @@ export default () => {
           font-weight: normal;
           font-style: italic;
         }
+
+        .photo-wall {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        .photo-wall img {
+          width: 300px;
+          height: 300px;
+        }
+
+        @media (max-width: 920px) {
+          .photo-wall img {
+            width: 33%;
+            height: 33%;
+          }
+        }
+
       `}</style>
     </Page>
   )

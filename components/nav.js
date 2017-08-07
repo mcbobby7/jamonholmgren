@@ -16,9 +16,12 @@ const Item = ({ href, children }) => (
         font-size: 18px;
         text-decoration: none;
         color: #000;
+        transition: 0.2s;
       }
       a:hover {
-        color: #fbc74c;
+        transition: 0.2s;
+        color: #dadada;
+        font-weight: bold;
       }
     `}</style>
   </li>
@@ -36,6 +39,12 @@ export default () => (
       ul {
         list-style-type: none;
         display: flex;
+      }
+      @media (max-width: 750px) {
+        ul {
+          display: block;
+          padding-left: 0;
+        }
       }
     `}</style>
   </ul>

@@ -24,13 +24,15 @@ export default (props) => (
         type='text/css'
         href='//fonts.googleapis.com/css?family=Average+Sans:400|Rancho:400|Source+Sans+Pro:400,400italic,700normal,700italic'
       />
+      <link data-fontset-id="ce-fontset" href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" />
 
     </Head>
     <style jsx global>{`
       body {
-        {/* font-family: Georgia, Cambria, 'Times New Roman', Times, serif; */}
-        font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
-        font-size: 16px;
+        {/* font-family: 'Source Sans Pro', 'Open Sans', sans-serif; */}
+        font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+
+        font-size: 17px;
         padding: 40px 10px;
         margin: 0;
         line-height: 1.5em;
@@ -48,6 +50,11 @@ export default (props) => (
 
       a {
         color: #6b3912;
+      }
+
+      p {
+        margin-top: 30px;
+        margin-bottom: 30px;
       }
 
       /* loading progress bar styles */

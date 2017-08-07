@@ -24,7 +24,7 @@ export default () => {
         Unfortunately for me, the 286 didn't come with any programming tools. Undeterred, I dug into batch files, reading the source code and trying to puzzle out what they did. I even tried to manipulate the machine code of a compiled exe file. Unfortunately, I learned the benefit of making a good backup before doing that -- I permanently damaged a game and never did get it working again after that.
       </p>
       <img src='/static/jamon-drew-at-computer.jpg' id='jamon-drew-at-computer' />
-      <figcaption>My brother Drew (right) and I playing Chuck Yeager's Air Combat on the 286</figcaption>
+      <figcaption>My brother Drew and me playing Chuck Yeager's Air Combat on the 286</figcaption>
       <p>
         My dad's plans to make the 286 do all of his books quickly and easily didn't quite pan out, so he eventually went back and bought a more capable computer -- one that could handle QuickBooks. This 486 SLC computer came with QBasic! I was thrilled. From age twelve through my teenage years, I built hundreds of games, some small and some larger. I built text adventure games, top-down tank shooters, space games, a huge <a href='http://kingdomofkroz.com/'>Kingdom of Kroz</a> knockoff called Rokz, and many others. Unfortunately, almost all of those games have long since been lost.
       </p>
@@ -32,10 +32,8 @@ export default () => {
         Besides computer programming and computer games, I loved to read. I read a lot of sci-fi and fantasy, including the Wheel of Time series, and a lot of World War II nonfiction, especially about airplanes and submarines. I'd ride the bus into town with my long legs folded against the seat in front of me, engrossed in yet another library book.
       </p>
       <p>
-        I played varsity basketball in high school. I was 6'-4" and somewhat athletic, so the coach convinced me to try out for the team despite me being a complete noobie on the court. Within a few months I was hooked. I still love to play basketball, although the opportunities are fewer and further between.
+        I played varsity basketball in high school. I was 6'-4" and somewhat athletic, so the coach convinced me to try out for the team despite me being a complete rookie on the court. Within a few months I was hooked. I still love to play basketball, although the opportunities are fewer and further between.
       </p>
-      <img src='/static/my-siblings-and-parents.jpg' alt='My parents and 8 siblings, along with their spouses' id='family' />
-      <figcaption>My parents and 8 siblings, along with their spouses</figcaption>
       <p>
         After high school, I tried out for a local community college basketball team and practiced with them up until I was cut just before their first game. I finished out the semester and then moved to Vancouver, Washington state, dropping out of college.
       </p>
@@ -49,7 +47,7 @@ export default () => {
         My wife Chyra and I got married during that time and had our first of four children, Cedric.
       </p>
       <img src='/static/jamon-chyra-honeymoon.jpg' alt='My wife Chyra and me on our honeymoon' id='honeymoon' />
-      <figcaption>My wife Chyra and me on our honeymoon. We're going on 14 years now!</figcaption>
+      <figcaption>Chyra and me on our honeymoon. Married nearly 14 years now!</figcaption>
       <p>
         In August of 2005, I bought JavaScript, PHP, and MySQL books, and decided to start my own business, <Link href='https://clearsightstudio.com'>ClearSight</Link>, designing and programming small business websites.
       </p>
@@ -65,11 +63,15 @@ export default () => {
         After a few years, I started feeling like I needed some help. I eventually hired a few people including a junior developer, Kevin VanGelder, who is still with my company to this day. Over the next several years, I grew the business from just me to a dozen, including a project manager, design department, and many developers to share the load. We went from small business websites to larger web applications and native mobile apps.
       </p>
       <p>
+        <em>That's a very short paragraph about a decade of blood, sweat, and tears...I'll write more about it someday.</em>
+      </p>
+      <p>
         In late 2015, I felt like I had pushed ClearSight as far as I could go, and was running up against some of my own limitations. Todd Werth and I had become good friends and we were working together on several open source projects. After a lot of discussion between us and also involving Ken Miller, Todd's business partner, we merged our two companies and created the design and development agency <Link href='https://infinite.red'>Infinite Red</Link>.
       </p>
       <p>
-         That brings us to today. My role is Chief Operating Officer as well as co-CTO. I manage a portion of our projects as well as sales and developing partnerships and relationships with other businesses.
+         That brings us to today. My role is Chief Operating Officer as well as co-CTO. I manage a portion of our projects as well as sales and developing partnerships and relationships with other businesses. I'm very lucky to have Todd and Ken as partners and we've built a company of 24 awesome designers, developers, and support staff.
       </p>
+
       <img src='/static/jamon-family.jpg' alt='My family' id='jamon-family' />
       <figcaption>My family - my wife Chyra, Cedric, Cally, Vanna, and Vessa</figcaption>
       <p className='next-steps'>
@@ -91,6 +93,7 @@ export default () => {
           margin: 10px auto;
         }
         figcaption {
+          font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
           display: block;
           margin: 10px auto;
           text-align: center;
