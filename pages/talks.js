@@ -15,12 +15,12 @@ export default () => {
 
       <ul>
         <li><a href='https://elixirconf.com'>ElixirConf 2017</a> September 7-8, 2017 - Bellevue, Washington - I may submit a lightning talk, although I'm not decided yet. Either way, if you're going, say hi!</li>
-        <li><a href='https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/241862154'>PDX Func Meetup</a> on Monday, August 14, 2017 - Portland, Oregon - I'll be presenting on my <a href='https://github.com/jamonholmgren/path'>A* Pathfinding implementation</a> in <a href='http://elm-lang.org'>Elm</a>.</li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li><a href='https://www.meetup.com/Portland-Functional-Programming-Study-Group/events/241862154'>PDX Func Meetup</a> on Monday, August 14, 2017 - Portland, Oregon - I presented on my <a href='https://github.com/jamonholmgren/path'>A* Pathfinding implementation</a> in <a href='http://elm-lang.org'>Elm</a>. <a href='https://github.com/jamonholmgren/path/tree/pdxfunc-meetup-2017'>Source</a> and <a href='/static/path.html'>demo</a> links.</li>
         <li><a href='http://gwtw.co/80'>Getting Work to Work Podcast</a> on July 28, 2017 - I was the guest on Chris Martin's excellent podcast and talked about remote work, our conference, and more.</li>
         <li><a href='https://infinite.red/ChainReactConf'>Chain React</a> on July 10-11, 2017 - Portland, Oregon - Gave the welcome and goodbye for our first conference ever, which was focused on React Native.</li>
         <li><a href='https://www.meetup.com/Portland-Erlang-Elixir-User-Group/events/240039660/'>Portland Erlang and Elixir User Group</a> on June 21 - Portland, Oregon - Gave a talk about <a href='https://github.com/infinitered/thesis-phoenix'>Thesis</a>, a CMS for Elixir/Phoenix that I built.</li>

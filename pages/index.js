@@ -44,7 +44,7 @@ export default () => {
       </p>
 
       <p>
-        If you want to see what I'm up to these days, check out my <Link prefetch href='/now'>Now page</Link>. If you're interested in my background, check out <Link prefetch href='/beginnings'>Beginnings</Link>.
+        Or...check out a cool pathfinding demo I just wrote in Elm! <a href='/static/path.html'>Pathfinding Demo</a>
       </p>
 
       <style jsx>{`
