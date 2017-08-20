@@ -17,24 +17,6 @@ export default () => {
 
       <p><a href='https://medium.com/@jamonholmgren'>Medium</a> -- I write occasionally there. Like Instagram, follow me and I’ll follow you back.</p>
 
-
-      <div className='social-icons'>
-        <a href='https://twitter.com/jamonholmgren'><img src='/static/twitter.png' /></a>
-        <a href='https://github.com/jamonholmgren'><img src='/static/github.png' /></a>
-        <a href='https://facebook.com/jamon.holmgren'><img src='/static/facebook.png' /></a>
-      </div>
-
-      <style jsx>{`
-        .social-icons {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .social-icons img {
-          flex: 1;
-        }
-      `}</style>
     </Page>
   )
 }
