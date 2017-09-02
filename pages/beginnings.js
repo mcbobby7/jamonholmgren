@@ -6,7 +6,6 @@ export default () => {
   return (
     <Page title='Beginnings'>
       <h1>Beginnings</h1>
-      <img src='/static/jamonholmgren.jpg' alt='Portrait photo of Jamon Holmgren, quite handsome, or so my wife tells me' id='jamon' />
       <p>
         I grew up just outside a small town in northwest Oregon, called Clatskanie. My dad was a millwright and eventually started his own small excavation business, and my mom took care of me and my eight siblings. Yes, you read that right -- I have eight awesome siblings! Three sisters and five brothers. And no, we're not Mormon nor Catholic -- we're Lutherans, actually.
       </p>
@@ -72,6 +71,8 @@ export default () => {
          That brings us to today. My role is Chief Operating Officer as well as co-CTO. I manage a portion of our projects as well as sales and developing partnerships and relationships with other businesses. I'm very lucky to have Todd and Ken as partners and we've built a company of 24 awesome designers, developers, and support staff.
       </p>
 
+      <img src='/static/jamonholmgren.jpg' alt='Portrait photo of Jamon Holmgren, quite handsome, or so my wife tells me' id='jamon' />
+
       <img src='/static/jamon-family.JPG' alt='My family' id='jamon-family' />
 
       <figcaption>My family - my wife Chyra, Cedric, Cally, Vanna, and Vessa</figcaption>
@@ -114,8 +115,3 @@ export default () => {
   )
 }
 
-// I grew up in a small town in northwest Oregon. In the early 90s, my dad got a computer, and I started programming in QBasic shortly afterward. From age twelve through my teenage years, I built hundreds of games, some small and some larger. I also played varsity basketball in high school and read a lot.
-
-// I went to a single semester of community college and then quit. I moved to Vancouver, WA with my parents and siblings and still live in that area today.
-
-// I was working for a home builder (the same one that built both of my houses, New Tradition Homes) and in charge of their website. Eventually, I decided to start my own business (ClearSight) doing small business websites myself, in August of 2005. Fast-forward a few years and I started hiring developers to work with me, and eventually built the business to around a dozen.
