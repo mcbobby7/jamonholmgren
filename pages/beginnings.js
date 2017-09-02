@@ -72,7 +72,8 @@ export default () => {
          That brings us to today. My role is Chief Operating Officer as well as co-CTO. I manage a portion of our projects as well as sales and developing partnerships and relationships with other businesses. I'm very lucky to have Todd and Ken as partners and we've built a company of 24 awesome designers, developers, and support staff.
       </p>
 
-      <img src='/static/jamon-family.jpg' alt='My family' id='jamon-family' />
+      <img src='/static/jamon-family.JPG' alt='My family' id='jamon-family' />
+
       <figcaption>My family - my wife Chyra, Cedric, Cally, Vanna, and Vessa</figcaption>
       <p className='next-steps'>
         <em>
