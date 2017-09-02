@@ -54,7 +54,7 @@ export default () => {
 
       <p>I'm very excited about the new company. It was time for a change, and this is as close to perfect as I could have envisioned. Who knows...maybe another ten years?</p>
 
-      <p><img src="https://cloud.githubusercontent.com/assets/1479215/9644817/096fd6fa-517d-11e5-8403-7ad5539420c0.jpg" style="display:block;margin:30px auto;" /></p>
+      <p><img src="https://cloud.githubusercontent.com/assets/1479215/9644817/096fd6fa-517d-11e5-8403-7ad5539420c0.jpg" style={{display: 'block', margin: '30px auto'}} /></p>
     </Page>
   )
 }

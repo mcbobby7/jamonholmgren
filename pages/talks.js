@@ -8,13 +8,14 @@ export default () => {
       <h1>Talks -- Recent and Upcoming</h1>
 
       <p>
-        I sometimes give talks at conferences (when I'm not <a href='https://infinite.red/ChainReactConf'>helping organize one</a>) and meetups. I've added links to a few here and will try to keep it up to date.
+        I sometimes give talks at conferences (when I'm not <a href='https://infinite.red/ChainReactConf'>helping organize one</a>) and meetups. I've added links to a few here and will try to keep it up to date. In the upcoming section, I've also added some other meetups and conferences I plan to attend even if I'm not speaking, in case you want to connect there.
       </p>
 
       <h3>Upcoming</h3>
 
       <ul>
-        <li><a href='https://elixirconf.com'>ElixirConf 2017</a> September 7-8, 2017 - Bellevue, Washington - I may submit a lightning talk, although I'm not decided yet. Either way, if you're going, say hi!</li>
+        <li><a href='http://cre8con.com/'>Portland Creative Conference (cr8con)</a> September 29, 2017 - Portland, Oregon - I won't be giving a talk here, but I will be attending. See you there!</li>
+        <li><a href='https://elixirconf.com'>ElixirConf 2017</a> September 7-8, 2017 - Bellevue, Washington - I have submitted a lightning talk titled "Demoing Thesis - a Phoenix CMS". If you're going, say hi!</li>
       </ul>
 
       <h3>Recent</h3>
