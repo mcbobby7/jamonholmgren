@@ -62,7 +62,7 @@ export default () => {
         After a few years, I started feeling like I needed some help. I eventually hired a few people including a junior developer, Kevin VanGelder, who is still with my company to this day. Over the next several years, I grew the business from just me to a dozen, including a project manager, design department, and many developers to share the load. We went from small business websites to larger web applications and native mobile apps.
       </p>
       <p>
-        <em>That's a very short paragraph about a decade of blood, sweat, and tears...I'll write more about it someday.</em>
+        <em>You can read more about it in my 2015 post, <a href='/ten'>Ten</a>.</em>
       </p>
       <p>
         In late 2015, I felt like I had pushed ClearSight as far as I could go, and was running up against some of my own limitations. Todd Werth and I had become good friends and we were working together on several open source projects. After a lot of discussion between us and also involving Ken Miller, Todd's business partner, we merged our two companies and created the design and development agency <Link href='https://infinite.red'>Infinite Red</Link>.

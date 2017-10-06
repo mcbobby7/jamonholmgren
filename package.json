@@ -15,9 +15,8 @@
     "next": "^2.4.9",
     "nprogress": "^0.2.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
+    "react-dom": "^15.6.1",
+    "react-tweet-embed": "^1.0.8",
     "react-youtube": "^7.4.0"
   }
 }

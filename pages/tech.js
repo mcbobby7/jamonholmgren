@@ -1,6 +1,7 @@
 import React from 'react'
 import Page from '../components/page'
 import Link from 'next/link'
+import TweetEmbed from 'react-tweet-embed'
 
 export default () => {
   return (
@@ -10,6 +11,12 @@ export default () => {
       <p>
         If there's one thing I've learned, it's that I love to explore new technologies. Here's a description of what I'm currently learning about and playing with.
       </p>
+
+      <h3>ARKit</h3>
+
+      <p>I've been playing around with Swift 4 and ARKit on iOS.</p>
+
+      <TweetEmbed id='900975771883196416' />
 
       <h3>React Native</h3>
 
@@ -25,15 +32,6 @@ export default () => {
       <h3>Next.js, Now.sh</h3>
 
       <p>This website is <a href='https://github.com/jamonholmgren/jamonholmgren'>open source</a> and written in <a href='https://zeit.co/blog/next'>Next.js</a>, deployed via <a href='https://zeit.co/now'>Now.sh</a>. The process couldn't have been easier! I really enjoyed it from the initial spin-up to porting over my old Ghost CMS blog posts to deploying live and configuring the DNS.</p>
-
-      <h3>Elm</h3>
-
-      <p>I'm <Link href='/talks'>giving talks</Link> on Elm fairly regularly and have done some open source experiments, including <a href='https://github.com/jamonholmgren/path'>Path</a> and <a href='https://github.com/jamonholmgren/rocket-elm'>Rocket Elm</a>.</p>
-      <p>Elm is fantastic and I have a lot of admiration for it. It remains to be seen if it can ever <a href='http://www.elmbark.com/2016/03/16/mainstream-elm-user-focused-design'>be mainstream</a>.</p>
-
-      <h3>Excalibur.js</h3>
-
-      <p>My son is now twelve, like I was <Link href='/beginnings'>when I started coding</Link>, and I found <a href='https://excaliburjs.com/'>Excalibur.js</a> for him to make small games with. It's a delightful little JavaScript/TypeScript game framework.</p>
     </Page>
   )
 }

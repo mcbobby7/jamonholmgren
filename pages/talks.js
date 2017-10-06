@@ -15,12 +15,13 @@ export default () => {
       <h3>Upcoming</h3>
 
       <ul>
-        <li><a href='http://cre8con.com/'>Portland Creative Conference (cr8con)</a> September 29, 2017 - Portland, Oregon - I won't be giving a talk here, but I will be attending. See you there!</li>
+        <li>I'm taking a break from meetups and conferences for a few months, but I'll be back soon.</li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li><a href='http://cre8con.com/'>Portland Creative Conference (cr8con)</a> September 29, 2017 - Portland, Oregon - I didn't give a talk here, but I did attend.</li>
         <li><a href='https://elixirconf.com'>ElixirConf 2017</a> September 7-8, 2017 - Bellevue, Washington - I gave a lightning talk titled "Demoing Thesis - a Phoenix CMS". Watch video <a href='https://twitter.com/jamonholmgren/status/907650335824519168'>here</a>.<br />
 
         <YouTube 
