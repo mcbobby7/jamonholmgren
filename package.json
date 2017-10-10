@@ -1,6 +1,6 @@
 {
   "name": "jamonholmgren",
-  "version": "2.0.0-beta.1",
+  "version": "2.1.0",
   "description": "jamonholmgren.com",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,12 @@
     "start": "next start"
   },
   "author": "Jamon Holmgren",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "next": "^2.4.9",
+    "next": "^4.0.0",
     "nprogress": "^0.2.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-tweet-embed": "^1.0.8",
     "react-youtube": "^7.4.0"
   }

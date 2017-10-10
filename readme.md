@@ -15,8 +15,8 @@ $ yarn run dev
 
 To deploy, run this:
 
-```
-# TODO
+```shell
+$ now && now alias
 ```
 
 ## Acknowledgements
@@ -25,4 +25,4 @@ While this website is a rather humble endeavor, I did receive inspiration from [
 
 ## License
 
-While the website source code is licensed MIT and free to use as you see fit, the content, including but not limited to copy and images, is mine. Please don't use without my written and explicit permission.
+The website source code (excluding written content and images) is licensed MIT and free to use as you see fit. However, the content, including but not limited to copy and images, is mine. Please don't use without my written and explicit permission.
