@@ -6,6 +6,8 @@ I'm Jamon Holmgren, a software developer who is also a cofounder of [Infinite Re
 
 ## Quick Start
 
+First, [install Now Desktop](https://zeit.co/download) and install the CLI tools from the walkthrough (you can find the walkthrough in About if you skipped it before).
+
 Assuming you've installed a relatively recent node and yarn, clone the repo down, cd into the directory, and run this:
 
 ```shell
@@ -16,7 +18,7 @@ $ yarn run dev
 To deploy, run this:
 
 ```shell
-$ now && now alias
+$ ./bin/deploy
 ```
 
 ## Acknowledgements
