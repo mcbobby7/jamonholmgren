@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Item = ({ href, children }) => (
   <li>
@@ -25,15 +25,15 @@ const Item = ({ href, children }) => (
       }
     `}</style>
   </li>
-)
+);
 
 export default () => (
   <ul>
-    <Item href='/beginnings'>beginnings</Item>
-    <Item href='/now'>now</Item>
-    <Item href='/tech'>tech</Item>
-    <Item href='/talks'>talks</Item>
-    <Item href='/connect'>connect</Item>
+    <Item href="/beginnings">beginnings</Item>
+    <Item href="/now">now</Item>
+    <Item href="/tech">tech</Item>
+    <Item href="/talks">talks</Item>
+    <Item href="/connect">connect</Item>
 
     <style jsx>{`
       ul {
@@ -48,4 +48,4 @@ export default () => (
       }
     `}</style>
   </ul>
-)
+);

@@ -1,15 +1,15 @@
-import Nav from './nav'
-import Link from 'next/link'
+import Nav from "./nav";
+import Link from "next/link";
 
 export default () => (
   <header>
     <div>
-      <Link prefetch href='/'>
+      <Link prefetch href="/">
         <a>
-          <span className='title'>Jamon Holmgren</span>
+          <span className="title">Jamon Holmgren</span>
         </a>
       </Link>
-      <div className='nav'>
+      <div className="nav">
         <Nav />
       </div>
     </div>
@@ -18,7 +18,9 @@ export default () => (
       header {
         display: flex;
         font-size: 18px;
-        {/* font-family: Georgia, Cambria, 'Times New Roman', Times, serif; */}
+         {
+          /* font-family: Georgia, Cambria, 'Times New Roman', Times, serif; */
+        }
         font-family: "Playfair Display", Helvetica, Arial, sans-serif;
         font-weight: 400;
       }
@@ -26,10 +28,10 @@ export default () => (
         display: inline-block;
         font-size: 46px;
         text-decoration: none;
-        padding: 0 0; 
+        padding: 0 0;
         margin: 10px 0;
         color: #000;
-        vertical-align: middle; 
+        vertical-align: middle;
         line-height: 1.4;
         border-width: 0 0 3px;
         border-color: #dadada;
@@ -51,4 +53,4 @@ export default () => (
       }
     `}</style>
   </header>
-)
+);

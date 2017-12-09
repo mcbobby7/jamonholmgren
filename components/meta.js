@@ -1,42 +1,49 @@
-import Head from 'next/head'
-import NProgress from 'nprogress'
-import Router from 'next/router'
+import Head from "next/head";
+import NProgress from "nprogress";
+import Router from "next/router";
 
-Router.onRouteChangeStart = () => NProgress.start()
-Router.onRouteChangeComplete = () => NProgress.done()
-Router.onRouteChangeError = () => NProgress.done()
+Router.onRouteChangeStart = () => NProgress.start();
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
 
-export default (props) => (
+export default props => (
   <div>
     <Head>
-      <meta name='viewport' content='width=device-width, initial-scale=1' />
-      <meta charSet='utf-8' />
-      <link rel='shortcut icon' href='/static/favicon.ico' />
-      <title>{props.title || 'Personal website'} - Jamon Holmgren</title>
-      <meta name='description' content={props.description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+      <link rel="shortcut icon" href="/static/favicon.ico" />
+      <title>{props.title || "Personal website"} - Jamon Holmgren</title>
+      <meta name="description" content={props.description} />
       {/* <link
         rel='stylesheet'
         type='text/css'
         href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700'
       /> */}
       <link
-        rel='stylesheet'
-        type='text/css'
-        href='//fonts.googleapis.com/css?family=Average+Sans:400|Rancho:400|Source+Sans+Pro:400,400italic,700normal,700italic'
+        rel="stylesheet"
+        type="text/css"
+        href="//fonts.googleapis.com/css?family=Average+Sans:400|Rancho:400|Source+Sans+Pro:400,400italic,700normal,700italic"
       />
-      <link data-fontset-id="ce-fontset" href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" />
-
+      <link
+        data-fontset-id="ce-fontset"
+        href="https://fonts.googleapis.com/css?family=Playfair+Display"
+        rel="stylesheet"
+      />
     </Head>
     <style jsx global>{`
       body {
-        {/* font-family: 'Source Sans Pro', 'Open Sans', sans-serif; */}
+         {
+          /* font-family: 'Source Sans Pro', 'Open Sans', sans-serif; */
+        }
         font-family: "Playfair Display", Helvetica, Arial, sans-serif;
 
         font-size: 17px;
         padding: 40px 10px;
         margin: 0;
         line-height: 1.5em;
-        {/* font-weight: 100; */}
+         {
+          /* font-weight: 100; */
+        }
         background-color: white;
       }
       * {
@@ -77,9 +84,9 @@ export default (props) => (
         width: 100px;
         height: 100%;
         box-shadow: 0 0 10px #000000, 0 0 5px #000000;
-        opacity: 1.0;
+        opacity: 1;
         transform: rotate(3deg) translate(0px, -4px);
       }
     `}</style>
   </div>
-)
+);
