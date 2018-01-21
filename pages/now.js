@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated December 8, 2017.</em>
+        <em>Last updated January 20, 2018.</em>
       </p>
 
       <p>
@@ -20,26 +20,25 @@ export default () => {
       </p>
 
       <p>
-        I'm in my home in Washington state, watching the rain drizzle down. My
-        kids are in school (all but the youngest). I'm spending most of my time
-        working remotely from my home office as Chief Operating Officer at{" "}
-        <a href="https://infinite.red">
-          my mobile &amp; web app development company
-        </a>. I also just bought a new{" "}
-        <a href="https://www.boltdrones.com/">$200 Bolt Drone</a> which I fly
-        between raindrops -- it's surprisingly fun!
+        My family had a <a href='https://www.facebook.com/jamon.holmgren/posts/10156004630782090?pnref=story'>huge, life-altering event</a> happen on Christmas Eve.
+        We returned home to find our house burglarized and on fire. We are thankful everyone is safe and
+        that law enforcement caught the suspects.
       </p>
 
-      <YouTube videoId="SSeH7Z9pVEQ" />
+      <p>
+        While this has been a topsy-turvy event in our lives, life does go on. Here's what I'm up to:
+      </p>
 
       <ul>
         <li>
-          Our family now has a new kitten, Willow (we had another, Waldo, but he
-          unfortunately ran away)
+          We are now moved into a rental home not far from our home, which has about six months of
+          restoration construction ahead.
         </li>
         <li>
-          Been working out regularly -- just finished a 12 week "Cowboy Method"
-          program
+          Our family has a kitten, Willow, who is about 8 or 9 months old.
+        </li>
+        <li>
+          Been working out fairly regularly, although it's been harder now that we're in a rental.
         </li>
         <li>
           <Link prefetch href="/tech">
