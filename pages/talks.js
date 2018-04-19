@@ -33,16 +33,15 @@ export default () => {
 
       <ul>
         <li>
-          <a href="http://cre8con.com/">
-            Portland Creative Conference (cr8con)
-          </a>{" "}
-          September 29, 2017 - Portland, Oregon - I didn't give a talk here, but
-          I did attend.
+          <a href="https://discoverblockchains.com/">Discover Blockchains</a> - March 24, 2018 - Portland, Oregon
+        </li>
+        <li>
+          <a href="http://cre8con.com/">Portland Creative Conference (cr8con)</a> - September 29, 2017 - Portland, Oregon
         </li>
         <li>
           <a href="https://elixirconf.com">ElixirConf 2017</a> September 7-8,
           2017 - Bellevue, Washington - I gave a lightning talk titled "Demoing
-          Thesis - a Phoenix CMS". Watch video{" "}
+          Thesis - a Phoenix CMS". Watch video:
           <a href="https://twitter.com/jamonholmgren/status/907650335824519168">
             here
           </a>.<br />
