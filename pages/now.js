@@ -1,7 +1,7 @@
 import React from "react";
 import Page from "../components/page";
 import Link from "next/link";
-import YouTube from "react-youtube";
+// import YouTube from "react-youtube";
 
 export default () => {
   return (
@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated January 20, 2018.</em>
+        <em>Last updated October 31, 2018. 🎃</em>
       </p>
 
       <p>
@@ -31,14 +31,13 @@ export default () => {
 
       <ul>
         <li>
-          We are now moved into a rental home not far from our home, which has about six months of
-          restoration construction ahead.
+          We are back in our home as of May and settling in. It's been great to be back in our own place!
         </li>
         <li>
-          Our family has a kitten, Willow, who is about 8 or 9 months old.
+          Our family has a cat, Willow, who is about a year and a half old.
         </li>
         <li>
-          Been working out fairly regularly, although it's been harder now that we're in a rental.
+          I'm continuing to work out in my <Link href="https://twitter.com/jamonholmgren/status/1021553760961736704">new home gym</Link>.
         </li>
         <li>
           <Link prefetch href="/tech">

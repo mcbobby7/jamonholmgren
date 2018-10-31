@@ -26,11 +26,11 @@ export default () => {
       <h3>React Native</h3>
 
       <p>
-        My company, <a href="https://infinite.red">Infinite Red, Inc.</a>, uses{" "}
-        <a href="https://facebook.github.io/react-native/">React Native</a> to
+        My company, <Link href="https://infinite.red">Infinite Red, Inc.</Link>, uses{" "}
+        <Link href="https://facebook.github.io/react-native/">React Native</Link> to
         power our client mobile apps. I've been working on some personal
         projects in React Native using the{" "}
-        <a href="https://infinite.red/ignite">Ignite</a> React Native Starter
+        <Link href="https://infinite.red/ignite">Ignite</Link> React Native Starter
         Kit, and it's pretty awesome. I've done native mobile app programming as
         well as RubyMotion, but nothing has come close to the speed and cross
         platform story of React Native.
@@ -43,8 +43,8 @@ export default () => {
       <h3>Elixir & Phoenix</h3>
 
       <p>
-        My company also uses <a href="http://elixir-lang.org">Elixir</a> and the{" "}
-        <a href="http://phoenixframework.org">Phoenix web framework</a> for many
+        My company also uses <Link href="http://elixir-lang.org">Elixir</Link> and the{" "}
+        <Link href="http://phoenixframework.org">Phoenix web framework</Link> for many
         of our websites, web apps, back ends, and APIs.
       </p>
       <p>
@@ -54,7 +54,7 @@ export default () => {
       </p>
       <p>
         I've built a content management system for Elixir / Phoenix called{" "}
-        <a href="https://github.com/infinitered/thesis-phoenix">Thesis</a>. It's
+        <Link href="https://github.com/infinitered/thesis-phoenix">Thesis</Link>. It's
         really slick, although not a lot of people know about it.
       </p>
 
@@ -62,9 +62,9 @@ export default () => {
 
       <p>
         This website is{" "}
-        <a href="https://github.com/jamonholmgren/jamonholmgren">open source</a>{" "}
-        and written in <a href="https://zeit.co/blog/next">Next.js</a>, deployed
-        via <a href="https://zeit.co/now">Now.sh</a>. The process couldn't have
+        <Link href="https://github.com/jamonholmgren/jamonholmgren">open source</Link>{" "}
+        and written in <Link href="https://zeit.co/blog/next">Next.js</Link>, deployed
+        via <Link href="https://zeit.co/now">Now.sh</Link>. The process couldn't have
         been easier! I really enjoyed it from the initial spin-up to porting
         over my old Ghost CMS blog posts to deploying live and configuring the
         DNS.
