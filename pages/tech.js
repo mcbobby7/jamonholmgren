@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../components/page";
-import Link from "next/link";
+import YouTube from "react-youtube";
 import TweetEmbed from "react-tweet-embed";
 
 export default () => {
@@ -17,28 +17,22 @@ export default () => {
         and playing with.
       </p>
 
-      <h3>ARKit</h3>
+      <h3>Electron</h3>
 
-      <p>I've been playing around with Swift 4 and ARKit on iOS.</p>
+      <p>I'm working on a still-secret Electron app:</p>
 
-      <TweetEmbed id="900975771883196416" />
+      <TweetEmbed id="1062546567800926208" />
 
-      <h3>React Native</h3>
+      <p>I kinda love Electron, to be honest.</p>
+
+      <h3>React Native Core Team</h3>
 
       <p>
-        My company, <a href="https://infinite.red">Infinite Red, Inc.</a>, uses
-        <a href="https://facebook.github.io/react-native/">React Native</a>
-        to power our client mobile apps. I've been working on some personal
-        projects in React Native using the
-        <a href="https://infinite.red/ignite">Ignite</a> React Native Starter
-        Kit, and it's pretty awesome. I've done native mobile app programming as
-        well as RubyMotion, but nothing has come close to the speed and cross
-        platform story of React Native.
+        I've recently joined the React Native core team and have been working on
+        "The Slimmening" initiative.
       </p>
-      <p>
-        Biggest downside is still the Node/NPM ecosystem, which can be a
-        crapshoot at best. But it's worth fighting through.
-      </p>
+
+      <TweetEmbed id="1050893463762300928" />
 
       <h3>Elixir & Phoenix</h3>
 
@@ -59,6 +53,8 @@ export default () => {
         really slick, although not a lot of people know about it.
       </p>
 
+      <YouTube videoId="DOgT_K5tLxU" />
+
       <h3>Next.js, Now.sh</h3>
 
       <p>
@@ -70,6 +66,11 @@ export default () => {
         over my old Ghost CMS blog posts to deploying live and configuring the
         DNS.
       </p>
+      <p>
+        Not only that, but I recently upgraded it from Next 2 to Next 7 and had
+        basically no problems at all.
+      </p>
+      <TweetEmbed id="1065447628966514688" />
     </Page>
   );
 };

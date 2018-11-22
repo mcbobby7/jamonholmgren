@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import Page from "../components/page";
 import YouTube from "react-youtube";
 
@@ -24,13 +24,43 @@ export default () => {
 
       <ul>
         <li>
-          I'll be giving a talk at React Native Portland meetup soon (TBD).
+          I haven't announced this yet (so keep it quiet for now), but I will be
+          speaking at{" "}
+          <a href="https://byteconf.com/react-native-2018">
+            ByteConf React Native
+          </a>{" "}
+          on December 14, 2018! I will be speaking about{" "}
+          <a href="https://infinite.red/ignite">
+            Making React Native Development better with Ignite
+          </a>
+          . This conference is free and online, so I hope to see you there!
+        </li>
+        <li>
+          I'm organizing the{" "}
+          <a href="https://www.meetup.com/React-Native-Portland/">
+            React Native Portland Meetup
+          </a>
+          ...check it out on Meetup and come join us if you can!
         </li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I was on the{" "}
+          <a href="https://www.virtualnotdistant.com/podcasts/remote-teams-conversation">
+            21st Century Work Life
+          </a>{" "}
+          podcast recently with Pilar Orti. I really enjoyed my chat with her
+          about remote work. Check it out!
+        </li>
+        <li>
+          <a href="https://building.infinite.red">Building Infinite Red</a>{" "}
+          Season 1 is out! In this new podcast, my cofounders and I talk about
+          the challenges and our philosophy for running a digital agency. Season
+          2 coming soon!
+        </li>
         <li>
           <a href="https://discoverblockchains.com/">Discover Blockchains</a>-
           March 24, 2018 - Portland, Oregon
@@ -44,11 +74,8 @@ export default () => {
         <li>
           <a href="https://elixirconf.com">ElixirConf 2017</a> September 7-8,
           2017 - Bellevue, Washington - I gave a lightning talk titled "Demoing
-          Thesis - a Phoenix CMS". Watch video:
-          <a href="https://twitter.com/jamonholmgren/status/907650335824519168">
-            here
-          </a>
-          .<br />
+          Thesis - a Phoenix CMS".
+          <br />
           <YouTube videoId="DOgT_K5tLxU" />
         </li>
         <li>
@@ -79,7 +106,7 @@ export default () => {
           <a href="https://www.meetup.com/Portland-Erlang-Elixir-User-Group/events/240039660/">
             Portland Erlang and Elixir User Group
           </a>
-          on June 21 - Portland, Oregon - Gave a talk about
+          on June 21, 2017 - Portland, Oregon - Gave a talk about
           <a href="https://github.com/infinitered/thesis-phoenix">Thesis</a>, a
           CMS for Elixir/Phoenix that I built.
         </li>

@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated October 31, 2018. 🎃</em>
+        <em>Last updated November 21, 2018. 🎃</em>
       </p>
 
       <p>
@@ -43,7 +43,7 @@ export default () => {
           Our family has a cat, Willow, who is about a year and a half old.
         </li>
         <li>
-          I'm continuing to work out in my
+          I'm continuing to work out in my{" "}
           <a href="https://twitter.com/jamonholmgren/status/1021553760961736704">
             new home gym
           </a>
@@ -52,6 +52,13 @@ export default () => {
         <li>
           <Link prefetch href="/tech">
             <a>Playing with some new languages and frameworks</a>
+          </Link>
+        </li>
+        <li>
+          <Link prefetch href="/talks">
+            <a>
+              Organizing, attending, and speaking at conferences and meetups
+            </a>
           </Link>
         </li>
       </ul>
