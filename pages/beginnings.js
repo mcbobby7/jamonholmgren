@@ -55,7 +55,7 @@ export default () => {
         capable computer -- one that could handle QuickBooks. This 486 SLC
         computer came with QBasic! I was thrilled. From age twelve through my
         teenage years, I built hundreds of games, some small and some larger. I
-        built text adventure games, top-down tank shooters, space games, a huge
+        built text adventure games, top-down tank shooters, space games, a huge{" "}
         <a href="http://kingdomofkroz.com/">Kingdom of Kroz</a> knockoff called
         Rokz, and many others. Unfortunately, almost all of those games have
         long since been lost.
@@ -91,7 +91,7 @@ export default () => {
       </p>
       <p>
         In 2002, I started working for a home builder (the same one that built
-        both of my homes,
+        both of my homes,{" "}
         <a href="http://www.newtraditionhomes.com">New Tradition Homes</a>). I
         did CAD design and marketing for them for a few years.
       </p>
@@ -109,7 +109,7 @@ export default () => {
       </figcaption>
       <p>
         In August of 2005, I bought JavaScript, PHP, and MySQL books, and
-        decided to start my own business,
+        decided to start my own business,{" "}
         <a href="https://clearsightstudio.com">ClearSight</a>, designing and
         programming small business websites.
       </p>
@@ -142,7 +142,8 @@ export default () => {
       </p>
       <p>
         <em>
-          You can read more about it in my 2015 post, <a href="/ten">Ten</a>.
+          You can read more about it in my 2015 post,{" "}
+          <a href="/archive/ten">Ten</a>.
         </em>
       </p>
       <p>
@@ -151,7 +152,7 @@ export default () => {
         had become good friends and we were working together on several open
         source projects. After a lot of discussion between us and also involving
         Ken Miller, Todd's business partner, we merged our two companies and
-        created the design and development agency
+        created the design and development agency{" "}
         <a href="https://infinite.red">Infinite Red</a>.
       </p>
       <p>

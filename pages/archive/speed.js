@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "../components/page";
+import Page from "../../components/page";
 import Link from "next/link";
 
 export default () => {
@@ -16,7 +16,10 @@ export default () => {
         <strong>
           UPDATE 5/29/2015: RubyMotion 3.12 came out with much faster compile
           times. Go check out my
-          <a href="http://jamonholmgren.com/speed2/">follow-up blog post</a>.
+          <a href="http://jamonholmgren.com/archive/speed2/">
+            follow-up blog post
+          </a>
+          .
         </strong>
       </p>
 

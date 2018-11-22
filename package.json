@@ -5,17 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "Jamon Holmgren",
   "license": "MIT",
   "dependencies": {
     "next": "^7.0.2",
     "nprogress": "^0.2.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
     "react-tweet-embed": "^1.0.8",
     "react-youtube": "^7.4.0"
   }

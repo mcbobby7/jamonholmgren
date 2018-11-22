@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "../components/page";
+import Page from "../../components/page";
 import Link from "next/link";
 
 export default () => {
@@ -11,7 +11,7 @@ export default () => {
       </p>
 
       <p>
-        A month ago, I sat down at my computer and wrote
+        A month ago, I sat down at my computer and wrote{" "}
         <Link prefetch href="/ten">
           <a>Ten Years</a>
         </Link>
@@ -69,7 +69,7 @@ export default () => {
       <p>
         I have hundreds of long-time clients who don't fit in with this focus. I
         care about them, and want to make sure they're taken care of. In many
-        cases, we are migrating them to a new small website company called
+        cases, we are migrating them to a new small website company called{" "}
         <a href="http://creativepurple.com">Creative Purple</a>. Creative Purple
         is owned by my sister, Meredith Wuori, and is focused on small business
         websites.

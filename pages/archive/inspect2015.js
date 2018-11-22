@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "../components/page";
+import Page from "../../components/page";
 import Link from "next/link";
 
 export default () => {
@@ -52,8 +52,9 @@ export default () => {
         <a href="https://twitter.com/watson1978">Watson</a> demonstrated, using
         <a href="https://github.com/infinitered/redpotion">RedPotion</a>, that
         live code reload works on device using the
-        <a href="/live">live code reloading technique</a> that I discovered a
-        couple months ago and Todd Werth and I built into RedPotion.
+        <a href="/archive/live">live code reloading technique</a> that I
+        discovered a couple months ago and Todd Werth and I built into
+        RedPotion.
       </p>
 
       <p>
