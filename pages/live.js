@@ -46,7 +46,7 @@ export default () => {
 
       <p>
         I went through the steps. Pretty straightforward, really. Just poll the
-        stylesheet for changes, load the code into the REPL, and then kick off{" "}
+        stylesheet for changes, load the code into the REPL, and then kick off
         <code>reapply_styles</code> on the relevant stylesheet.
       </p>
 
@@ -61,8 +61,8 @@ export default () => {
       <h3 id="inaction">In Action</h3>
 
       <p>
-        It's hard to describe just how much this changes our workflows at{" "}
-        <a href="http://clearsightstudio.com">ClearSight</a> and{" "}
+        It's hard to describe just how much this changes our workflows at
+        <a href="http://clearsightstudio.com">ClearSight</a> and
         <a href="http://infinitered.com/">InfiniteRed</a>. Before, the process
         to tweak and test a UI change was laborious:
       </p>
@@ -122,7 +122,7 @@ export default () => {
 
       <p>
         <em>
-          NOTE: An earlier version of this post had{" "}
+          NOTE: An earlier version of this post had
           <code>live_stylesheets</code> as the REPL command to initiate the live
           reloading. This has now been shortened to just <code>live</code> in
           RedPotion.
@@ -134,7 +134,7 @@ export default () => {
       <p>
         This is just the beginning. We are working on techniques for building
         out layouts and appending new objects safely (the ideas in my recent
-        article about{" "}
+        article about
         <a href="/rubymotion-react-pattern/">a RubyMotion React pattern</a> are
         particularly interesting here). We also have plans to explore live
         reloading for screens and potentially other objects, such as CDQ models.

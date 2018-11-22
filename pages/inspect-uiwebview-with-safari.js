@@ -11,12 +11,12 @@ export default () => {
       </p>
 
       <p>
-        My friend{" "}
-        <a href="https://twitter.com/matthewsinclair">Matthew Sinclair</a>{" "}
-        pointed out a{" "}
+        My friend
+        <a href="https://twitter.com/matthewsinclair">Matthew Sinclair</a>
+        pointed out a
         <a href="https://github.com/motion-kit/motion-kit/issues/103#issuecomment-73644286">
           neat trick
-        </a>{" "}
+        </a>
         recently. When embedding a UIWebView into an app, it's often useful to
         be able to inspect the contents of that view.
       </p>

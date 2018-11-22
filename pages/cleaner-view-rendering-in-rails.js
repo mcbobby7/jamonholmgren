@@ -11,7 +11,7 @@ export default () => {
       </p>
 
       <p>
-        We've been using the "Presenter pattern" at{" "}
+        We've been using the "Presenter pattern" at
         <a href="http://clearsightstudio.com/">ClearSight</a> for some time now.
         Since everyone seems to have gotten used to the idea of only using one
         instance variable per controller action, we decided to take it one step
@@ -134,7 +134,7 @@ export default () => {
       </pre>
 
       <p>
-        The <code>build</code> method just conveniently calls{" "}
+        The <code>build</code> method just conveniently calls
         <code>new(args).render_options</code> for us, so we can render cleanly
         in our controller (see above). It hangs onto properties that you pass
         into it, and the <code>render_options</code> method passes back to

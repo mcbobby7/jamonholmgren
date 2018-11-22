@@ -16,7 +16,7 @@ export default () => {
       </p>
 
       <p>
-        No more. Prepare ye' self. I shall blog!{" "}
+        No more. Prepare ye' self. I shall blog!
         <em>(EDIT: Well, for a while...)</em>
       </p>
 

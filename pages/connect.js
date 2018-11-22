@@ -22,7 +22,7 @@ export default () => {
       </p>
 
       <p>
-        <a href="http://community.infinite.red">Infinite Red Community Slack</a>{" "}
+        <a href="http://community.infinite.red">Infinite Red Community Slack</a>
         -- I started my company’s community slack and we talk mostly about tech
         in there. Feel free to say hi if you join.
       </p>

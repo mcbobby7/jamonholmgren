@@ -11,10 +11,10 @@ export default () => {
       </p>
 
       <p>
-        I recently{" "}
+        I recently
         <a href="/bootcamp-windows-10/">
           installed Windows 10 Preview via Boot Camp
-        </a>{" "}
+        </a>
         and the process went pretty smoothly. I decided, however, to blow away
         the partition because I wanted to a bigger one.
       </p>

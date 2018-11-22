@@ -119,7 +119,7 @@ export default () => {
       </p>
 
       <p>
-        It's even easier from Terminal. Just cd into that folder and run{" "}
+        It's even easier from Terminal. Just cd into that folder and run
         <code>strings my_happy_app | grep "YAY"</code>.
       </p>
 
@@ -135,7 +135,7 @@ export default () => {
       </h5>
 
       <p>
-        Not really. You don't even need to jailbreak your iPhone to use{" "}
+        Not really. You don't even need to jailbreak your iPhone to use
         <a href="http://www.macroplant.com/iexplorer/">iExplorer</a> and the
         various protections Apple puts around your app are relatively easy to
         circumvent.
@@ -144,10 +144,10 @@ export default () => {
       <h2 id="youroptions">Your Options</h2>
 
       <p>
-        You can't use a plist or NSUserDefaults, because those are{" "}
+        You can't use a plist or NSUserDefaults, because those are
         <a href="http://www.raywenderlich.com/45645/ios-app-security-analysis-part-1">
           quite vulnerable
-        </a>{" "}
+        </a>
         too. Even the Keychain is not entirely foolproof.
       </p>
 
@@ -187,7 +187,7 @@ export default () => {
       </pre>
 
       <p>
-        Note that I'm using odd method names here. You probably don't want{" "}
+        Note that I'm using odd method names here. You probably don't want
         <code>decode_api_base64_string</code> as your method, since that will be
         clearly obvious to anyone looking at your binary.
       </p>
@@ -204,7 +204,8 @@ export default () => {
       <p>But it doesn't appear in the binary:</p>
 
       <p>
-        }<img
+        }
+        <img
           src="http://clrsight.co/jh/Screen_Shot_2015-01-30_at_10.26.00_AM.png?+"
           alt="binary"
         />
@@ -225,7 +226,7 @@ export default () => {
       </p>
 
       <p>
-        <strong>UPDATE:</strong> Ørta pointed out his awesome{" "}
+        <strong>UPDATE:</strong> Ørta pointed out his awesome
         <a href="https://github.com/orta/cocoapods-keys">cocoapods-keys</a>,
         which deals with this issue. Note that it requires a pre-release
         CocoaPods to install.
@@ -234,14 +235,15 @@ export default () => {
       <p>
         <em>
           H/T to <br />
-          Ian Hofmann-Hicks and Ryan Linton for helping with this article. Also,{" "}
+          Ian Hofmann-Hicks and Ryan Linton for helping with this article. Also,
           <a href="http://www.raywenderlich.com/45645/ios-app-security-analysis-part-1">
             Derek Selander's security tutorial on Ray Wenderlich
-          </a>{" "}
-          (also{" "}
+          </a>
+          (also
           <a href="http://www.raywenderlich.com/46223/ios-app-security-analysis-part-2">
             part 2
-          </a>) is awesome.
+          </a>
+          ) is awesome.
         </em>
       </p>
     </Page>

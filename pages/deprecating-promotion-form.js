@@ -10,10 +10,11 @@ export default () => {
         <em>Published November 20, 2015</em>
       </p>
       <p>
-        As of today, I'm deprecating{" "}
+        As of today, I'm deprecating
         <a href="https://github.com/infinitered/ProMotion-form">
           ProMotion-form
-        </a>.
+        </a>
+        .
       </p>
 
       <p>
@@ -22,13 +23,14 @@ export default () => {
       </p>
 
       <p>
-        Fortunately, there's a great alternative to ProMotion-form.{" "}
+        Fortunately, there's a great alternative to ProMotion-form.
         <a href="https://twitter.com/bmichotte">Benjamin Michotte</a>, the
         prolific Belgian RubyMotion developer, has created a new ProMotion addon
-        called{" "}
+        called
         <a href="https://github.com/bmichotte/ProMotion-XLForm">
           ProMotion-XLForm
-        </a>. Since it's powered by a much less flakey CocoaPod, the odd issues
+        </a>
+        . Since it's powered by a much less flakey CocoaPod, the odd issues
         caused by XLForms won't be present. And Benjamin is an excellent
         developer, so he'll take good care of you.
       </p>

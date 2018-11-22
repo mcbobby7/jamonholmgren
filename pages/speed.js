@@ -15,7 +15,7 @@ export default () => {
 
         <strong>
           UPDATE 5/29/2015: RubyMotion 3.12 came out with much faster compile
-          times. Go check out my{" "}
+          times. Go check out my
           <a href="http://jamonholmgren.com/speed2/">follow-up blog post</a>.
         </strong>
       </p>
@@ -77,7 +77,7 @@ export default () => {
       <h3 id="inspiration">Inspiration</h3>
 
       <p>
-        As I unenthusiastically watch the <code>Compile /Users/jh/...</code>{" "}
+        As I unenthusiastically watch the <code>Compile /Users/jh/...</code>
         lines fill my screen, I observe that they seem to be scrolling by at a
         somewhat constant rate. Large files, small files. All at about the same
         amount of time.
@@ -111,7 +111,7 @@ export default () => {
       </p>
 
       <p>
-        There's a noticable pause on the generated, concatenated{" "}
+        There's a noticable pause on the generated, concatenated
         <code>ProMotion-concat.rb</code> file. I run <code>time rake</code> on
         both the non-concatenated version and the concatenated version.
       </p>
@@ -186,7 +186,7 @@ export default () => {
       </p>
 
       <p>
-        And maybe, just maybe, we won't groan when we have to{" "}
+        And maybe, just maybe, we won't groan when we have to
         <code>rake clean:all</code>.
       </p>
     </Page>

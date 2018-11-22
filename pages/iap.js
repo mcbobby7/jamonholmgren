@@ -16,24 +16,27 @@ export default () => {
       </p>
 
       <p>
-        There are a few options out there, such as{" "}
+        There are a few options out there, such as
         <a href="https://github.com/ivanacostarubio/helu">Helu</a> by my friend
         Ivan Acosta-Rubio. But Helu hasn't been updated in a while and I ran
         into a difficult to track down bug that I had to work around. Plus, the
-        API, while simple enough, isn't quite "<a href="http://promotion.readthedocs.org/en/master/#goalphilosophyroadmap">
+        API, while simple enough, isn't quite "
+        <a href="http://promotion.readthedocs.org/en/master/#goalphilosophyroadmap">
           ProMotion-like
-        </a>". I considered rewriting Helu to work better, but eventually
-        decided it would be better to draw inspiration from it and go a
-        different direction.
+        </a>
+        ". I considered rewriting Helu to work better, but eventually decided it
+        would be better to draw inspiration from it and go a different
+        direction.
       </p>
 
       <p>
-        That's why{" "}
+        That's why
         <a href="https://github.com/kevinvangelder">Kevin VanGelder</a> and I
-        built a new gem called{" "}
+        built a new gem called
         <a href="https://github.com/clearsightstudio/ProMotion-iap">
           ProMotion-iap
-        </a>.
+        </a>
+        .
       </p>
 
       <p>More on this later. First, a tiny bit of background.</p>
@@ -41,11 +44,12 @@ export default () => {
       <h4 id="storekit">StoreKit</h4>
 
       <p>
-        IAPs are handled by a Cocoa library called{" "}
+        IAPs are handled by a Cocoa library called
         <a href="https://developer.apple.com/library/ios/documentation/StoreKit/Reference/StoreKit_Collection/">
           StoreKit
-        </a>. StoreKit contains a fairly tight collection of classes and
-        delegate protocols to retrieve, purchase, and restore purchases --
+        </a>
+        . StoreKit contains a fairly tight collection of classes and delegate
+        protocols to retrieve, purchase, and restore purchases --
         non-consumable, consumable, subscription, and others.
       </p>
 
@@ -53,7 +57,7 @@ export default () => {
 
       <p>
         Before you get too far down this path, you'll need to set up an in-app
-        purchase in <a href="https://itunesconnect.apple.com">iTunes Connect</a>{" "}
+        purchase in <a href="https://itunesconnect.apple.com">iTunes Connect</a>
         and connect it to your app. Apple does a pretty good job of walking you
         through this process, so I won't detail it here, but you'll want to make
         sure you have a simple "Product ID" to reference from your app.
@@ -63,10 +67,10 @@ export default () => {
 
       <p>
         ProMotion-iap is provides a module (<code>PM::IAP</code>) that exposes
-        several methods to you when you include it. It's{" "}
+        several methods to you when you include it. It's
         <a href="https://github.com/clearsightstudio/ProMotion-iap/tree/master/spec">
           well tested
-        </a>{" "}
+        </a>
         and running in a production app.
       </p>
 
@@ -126,7 +130,7 @@ export default () => {
         the product, then map it into a readable hash that you can see in the
         example above. The <code>SKProduct</code> instance that we get from
         StoreKit is still available in the <code>[:product]</code> key, so if
-        you need to do something else with it you still can. The{" "}
+        you need to do something else with it you still can. The
         <code>formatted_price</code> is done for you using Apple's recommended
         method.
       </p>
@@ -178,7 +182,7 @@ export default () => {
       <h3 id="restoringiaps">Restoring IAPs</h3>
 
       <p>
-        Apple recently rejected an iPhone app we developed at{" "}
+        Apple recently rejected an iPhone app we developed at
         <a href="http://clearsightstudio.com/">ClearSight</a> because there
         wasn't a way to "restore in-app purchases." ProMotion-iap makes this
         easy to fix:

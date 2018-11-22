@@ -147,8 +147,8 @@ export default () => {
         <li>Business development topics stalled for months</li>
 
         <li>
-          Our{" "}
-          <a href="https://github.com/clearsightstudio">open source projects</a>{" "}
+          Our
+          <a href="https://github.com/clearsightstudio">open source projects</a>
           were maintained, but significant development was put on hold
         </li>
 
@@ -170,10 +170,11 @@ export default () => {
 
       <p>
         <em>
-          Do you work 4-day workweeks? Wish you did?{" "}
+          Do you work 4-day workweeks? Wish you did?
           <a href="https://twitter.com/jamonholmgren">
             Tell me about it on Twitter
-          </a>.
+          </a>
+          .
         </em>
       </p>
     </Page>

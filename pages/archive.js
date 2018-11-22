@@ -13,98 +13,102 @@ export default () => {
       <ul>
         <li>
           <Link prefetch href="/new-again">
-            New Again - Experiencing Facebook for the first time again, through
-            my 75 year old mother-in-law’s eyes.
+            <a>
+              New Again - Experiencing Facebook for the first time again,
+              through my 75 year old mother-in-law’s eyes.
+            </a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/deprecating-promotion-form">
-            Deprecating ProMotion-form
+            <a>Deprecating ProMotion-form</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/next">
-            Up Next
+            <a>Up Next</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/ten">
-            Ten Years
+            <a>Ten Years</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/uninstalling-united-airlines-drm-plugin">
-            Uninstalling United Airlines DRM Plugin
+            <a>Uninstalling United Airlines DRM Plugin</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/inspect2015">
-            Inspect 2015 Wrap-up
+            <a>Inspect 2015 Wrap-up</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/speed2">
-            RubyMotion Speed - Part 2
+            <a>RubyMotion Speed - Part 2</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/speed">
-            RubyMotion Speed - Part 1
+            <a>RubyMotion Speed - Part 1</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/live">
-            Live Reloading in RubyMotion
+            <a>Live Reloading in RubyMotion</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/promotion-2-3-notable-changes">
-            ProMotion 2.3 Notable Changes
+            <a>ProMotion 2.3 Notable Changes</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/rubymotion-react-pattern">
-            A React Pattern for your RubyMotion app
+            <a>A React Pattern for your RubyMotion app</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/iap">
-            In-App Purchases in RubyMotion
+            <a>In-App Purchases in RubyMotion</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/cleaner-view-rendering-in-rails">
-            Cleaner View Rendering in Rails
+            <a>Cleaner View Rendering in Rails</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/hex">
-            What the Hex?
+            <a>What the Hex?</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/inspect-uiwebview-with-safari">
-            Inspect UIWebView with Safari
+            <a>Inspect UIWebView with Safari</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/bootcamp-windows-10">
-            How to use Bootcamp to run Windows 10 Preview on OS X Yosemite
+            <a>
+              How to use Bootcamp to run Windows 10 Preview on OS X Yosemite
+            </a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/applicationverification-failed">
-            Annoying iOS issues: ApplicationVerification Failed
+            <a>Annoying iOS issues: ApplicationVerification Failed</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/four">
-            Working Four Day Weeks
+            <a>Working Four Day Weeks</a>
           </Link>
         </li>
         <li>
           <Link prefetch href="/what-i-ll-write">
-            What I'll Write
+            <a>What I'll Write</a>
           </Link>
         </li>
       </ul>

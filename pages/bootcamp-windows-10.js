@@ -131,9 +131,11 @@ export default () => {
           By the way, a good way to free up hard drive space on your MacBook Pro
           is to move larger files onto a USB drive. I found a 128 GB USB drive
           with great ratings for $35 which is pretty nuts. That's the size of my
-          old MacBook Air's entire hard drive...<a href="http://www.amazon.com/gp/product/B00FE2N1WS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00FE2N1WS&amp;linkCode=as2&amp;tag=jamonholmgren-20&amp;linkId=XY3OTJ5YECI4LWNN">
+          old MacBook Air's entire hard drive...
+          <a href="http://www.amazon.com/gp/product/B00FE2N1WS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00FE2N1WS&amp;linkCode=as2&amp;tag=jamonholmgren-20&amp;linkId=XY3OTJ5YECI4LWNN">
             here's the link
-          </a>.
+          </a>
+          .
         </em>
       </p>
 
@@ -160,7 +162,7 @@ export default () => {
 
       <p>
         This will save you a lot of time, so let me put it in unnecessarily loud
-        bolded text:{" "}
+        bolded text:
         <strong>
           If you follow these steps properly it should NOT require you to
           reinstall or clone/restore like this recommends.
@@ -244,10 +246,10 @@ export default () => {
       <ol>
         <li>
           Make sure you have enough space. 60 GB wasn't nearly enough and I had
-          to blow everything away and reinstall, running into{" "}
+          to blow everything away and reinstall, running into
           <a href="http://jamonholmgren.com/finder-disk-utilities-hard-drive-space/">
             this problem
-          </a>{" "}
+          </a>
           in the meantime.
         </li>
 

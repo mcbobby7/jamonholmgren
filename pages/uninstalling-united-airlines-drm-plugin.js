@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default () => {
   return (
-    <Page title="Uninstalling United Airline &quot;Panasonic DRM plugin&quot;">
+    <Page title='Uninstalling United Airline "Panasonic DRM plugin"'>
       <h1>Uninstalling United Airline's "Panasonic DRM plugin"</h1>
       <p>
         <em>Published July 20, 2015</em>
@@ -29,8 +29,8 @@ export default () => {
       </p>
 
       <p>
-        I finally did a Finder search and found a file named{" "}
-        <code>PanasonicDrmPlugin_2.plugin</code> in{" "}
+        I finally did a Finder search and found a file named
+        <code>PanasonicDrmPlugin_2.plugin</code> in
         <code>/Library/Internet Plugins</code>. I deleted that file, and after
         more Finder searches couldn't find anything else.
       </p>

@@ -11,10 +11,11 @@ export default () => {
       </p>
 
       <p>
-        A month ago, I sat down at my computer and wrote{" "}
+        A month ago, I sat down at my computer and wrote
         <Link prefetch href="/ten">
-          Ten Years
-        </Link>, looking back at the decade I have owned ClearSight.
+          <a>Ten Years</a>
+        </Link>
+        , looking back at the decade I have owned ClearSight.
       </p>
 
       <p>Now, I get to write a very different post. One that looks forward.</p>
@@ -37,8 +38,8 @@ export default () => {
       <p>
         Todd and I had become friends over the past year, and I knew Ken from
         meeting him at the previous #inspect conference in San Francisco, as
-        well as his work on <a href="https://github.com/infinitered/cdq">CDQ</a>.
-        Over the months, we started "TOL" (thinking out loud, Todd's favorite
+        well as his work on <a href="https://github.com/infinitered/cdq">CDQ</a>
+        . Over the months, we started "TOL" (thinking out loud, Todd's favorite
         acronym) about what it would look like if we were to merge our
         companies. That led to this meeting in Paris.
       </p>
@@ -68,7 +69,7 @@ export default () => {
       <p>
         I have hundreds of long-time clients who don't fit in with this focus. I
         care about them, and want to make sure they're taken care of. In many
-        cases, we are migrating them to a new small website company called{" "}
+        cases, we are migrating them to a new small website company called
         <a href="http://creativepurple.com">Creative Purple</a>. Creative Purple
         is owned by my sister, Meredith Wuori, and is focused on small business
         websites.

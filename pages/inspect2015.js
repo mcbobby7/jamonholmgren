@@ -13,7 +13,7 @@ export default () => {
       <p>Paris is hot.</p>
 
       <p>
-        Well, at least it was hot during the week of RubyMotion{" "}
+        Well, at least it was hot during the week of RubyMotion
         <a href="https://twitter.com/search?q=%23inspect2015">#inspect2015</a>.
         And nobody seems to have air conditioning.
       </p>
@@ -30,7 +30,7 @@ export default () => {
         <a href="https://twitter.com/lrz">Laurent Sansonetti</a> delivered the
         keynote, as he has the last two Inspects. He talked a little bit about
         the state of RubyMotion. The hype is gone, but the tools are starting to
-        mature. It's a good time to be a{" "}
+        mature. It's a good time to be a
         <a href="http://motioneers.herokuapp.com/">Motioneer</a>.
       </p>
 
@@ -49,9 +49,9 @@ export default () => {
       </p>
 
       <p>
-        <a href="https://twitter.com/watson1978">Watson</a> demonstrated, using{" "}
+        <a href="https://twitter.com/watson1978">Watson</a> demonstrated, using
         <a href="https://github.com/infinitered/redpotion">RedPotion</a>, that
-        live code reload works on device using the{" "}
+        live code reload works on device using the
         <a href="/live">live code reloading technique</a> that I discovered a
         couple months ago and Todd Werth and I built into RedPotion.
       </p>
@@ -104,9 +104,9 @@ export default () => {
         demonstrated the stack he's been using for his RubyMotion apps at
         CargoSense. He showed his layout system. Given that I've been a part of
         three layout systems on RubyMotion so far (ProMotion::Styling
-        (deprecated),{" "}
+        (deprecated),
         <a href="https://github.com/motion-kit/motion-kit">MotionKit</a> (see
-        below), and{" "}
+        below), and
         <a href="https://github.com/infinitered/redpotion">RedPotion</a>), there
         were a lot of similar concepts.
       </p>
@@ -231,10 +231,10 @@ export default () => {
       </p>
 
       <p>
-        I'm very proud of the fact that the second commit on{" "}
+        I'm very proud of the fact that the second commit on
         <a href="https://itunes.apple.com/us/app/a-dark-room/id736683061?mt=8">
           A Dark Room
-        </a>{" "}
+        </a>
         was "Integrated ProMotion". In a small way, I contributed to its
         success, and that's something very cool.
       </p>
@@ -253,7 +253,7 @@ export default () => {
         unique CPU and memory constraints he faced building a football (soccer)
         simulation/management game for iOS. Paul was able to work on this game
         full time as part of an agency that supported his work. I talked to both
-        Paul and his boss{" "}
+        Paul and his boss
         <a href="https://twitter.com/laurent_maguire">Laurent Maguire</a> and
         they're very cool.
       </p>
@@ -300,12 +300,12 @@ export default () => {
       </h4>
 
       <p>
-        <a href="http://t.co/1qFoL7bt0H">Slides 1</a>{" "}
+        <a href="http://t.co/1qFoL7bt0H">Slides 1</a>
         <a href="http://t.co/Cpw601V5eY">Slides 2</a>
       </p>
 
       <p>
-        It was great to see <a href="https://twitter.com/colinta">Colin</a>{" "}
+        It was great to see <a href="https://twitter.com/colinta">Colin</a>
         again. He talked about bringing some concepts from Swift (at his day
         job) to RubyMotion. He also gave an update on MotionKit.
       </p>
@@ -349,15 +349,15 @@ export default () => {
       <p>
         Going forward, I plan to be putting out a lot of RubyMotion (especially
         RedPotion/BluePotion-related) articles, tutorials, and news on this
-        blog. Keep an eye on it, or{" "}
+        blog. Keep an eye on it, or
         <a href="https://twitter.com/jamonholmgren">follow me on Twitter</a> to
         get alerted to new articles.
       </p>
 
       <p>
-        Also, don't forget to join our{" "}
+        Also, don't forget to join our
         <a href="http://motioneers.herokuapp.com/">Motioneers</a> Slack channel
-        if you haven't yet, sponsored by{" "}
+        if you haven't yet, sponsored by
         <a href="http://clearsightstudio.com/">ClearSight</a>, my Rails and
         RubyMotion development shop! Let's talk RubyMotion. :-)
       </p>

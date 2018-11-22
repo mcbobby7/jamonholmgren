@@ -18,7 +18,7 @@ export default () => {
 
       <p>
         When my dad brought home a 286 in 1991, I was enthralled. I watched as
-        he painstakingly typed and simultaneously repeated{" "}
+        he painstakingly typed and simultaneously repeated
         <code>cd backslash games enter</code> and saw the screen scroll and
         change. It was mind-blowing to a ten year old.
       </p>
@@ -36,10 +36,11 @@ export default () => {
       </p>
 
       <p>
-        Read more about it in{" "}
+        Read more about it in
         <Link prefetch href="/beginnings">
-          Beginnings
-        </Link>.
+          <a>Beginnings</a>
+        </Link>
+        .
       </p>
 
       <hr />
@@ -49,20 +50,20 @@ export default () => {
         father of four, located near Portland, Oregon, in SW Washington state.
       </p>
       <p>
-        I am one of the co-founders of{" "}
+        I am one of the co-founders of
         <a href="https://infinite.red">Infinite Red, Inc.</a>, a web & mobile
         app design and development studio based out of Portland and San
         Francisco.
       </p>
       <p>
-        Feel free to shoot me an email at{" "}
+        Feel free to shoot me an email at
         <a href="mailto:jamonholmgren@gmail.com">jamonholmgren@gmail.com</a>. If
-        it's work-related, use{" "}
+        it's work-related, use
         <a href="mailto:jamon@infinite.red">jamon@infinite.red</a>.
       </p>
 
       <p>
-        Or...check out a cool pathfinding demo I just wrote in Elm!{" "}
+        Or...check out a cool pathfinding demo I just wrote in Elm!
         <a href="/static/path.html">Pathfinding Demo</a>
       </p>
 

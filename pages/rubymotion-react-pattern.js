@@ -19,7 +19,7 @@ export default () => {
 
       <p>
         <em>
-          Updated 10/8/2016: changed <code>set_state</code> to{" "}
+          Updated 10/8/2016: changed <code>set_state</code> to
           <code>render</code>. Need to fix images too.
         </em>
       </p>
@@ -49,10 +49,10 @@ export default () => {
       <h3 id="buildinganappthenormalway">Building an app the normal way</h3>
 
       <p>
-        We're going to use{" "}
-        <a href="https://github.com/infinitered/redpotion">RedPotion</a>{" "}
-        (currently 1.0.0), which is{" "}
-        <a href="https://github.com/clearsightstudio/ProMotion">ProMotion</a>{" "}
+        We're going to use
+        <a href="https://github.com/infinitered/redpotion">RedPotion</a>
+        (currently 1.0.0), which is
+        <a href="https://github.com/clearsightstudio/ProMotion">ProMotion</a>
         and <a href="https://github.com/infinitered/rmq">RMQ</a> and several
         other useful gems pulled together into one.
       </p>
@@ -84,7 +84,7 @@ export default () => {
       </p>
 
       <p>
-        Let's build a very simplified UI using RedPotion's RMQ{" "}
+        Let's build a very simplified UI using RedPotion's RMQ
         <code>append</code> command.
       </p>
 
@@ -179,7 +179,7 @@ export default () => {
       <p>
         We already have AFMotion enabled in our Gemfile (add it if it's not
         there with <code>gem "AFMotion"</code>). So let's fetch the data using
-        the <a href="https://bitcoinaverage.com/">BitcoinAverage Price Index</a>{" "}
+        the <a href="https://bitcoinaverage.com/">BitcoinAverage Price Index</a>
         API. In your screen:
       </p>
 
@@ -353,7 +353,7 @@ export default () => {
       </pre>
 
       <p>
-        The line before <code>load_prices</code> is a new method call,{" "}
+        The line before <code>load_prices</code> is a new method call,
         <code>render</code>. Let's build it:
       </p>
 
@@ -420,7 +420,7 @@ export default () => {
       <p>
         There's only one method that manipulates the UI -- <code>render</code>.
         It can take any state hash that has the proper structure, so the screen
-        just manipulates the <code>@state</code> hash and calls{" "}
+        just manipulates the <code>@state</code> hash and calls
         <code>render(@state)</code> anytime something has changed.
       </p>
 
@@ -447,7 +447,7 @@ export default () => {
       <p>
         The main benefit is <strong>cognitive</strong>. The only way the UI ever
         gets updated is with <code>render</code>, so if you have a UI element
-        that isn't updating properly, you know where to look -- either in{" "}
+        that isn't updating properly, you know where to look -- either in
         <code>render</code> or in something manipulating <code>@state</code> and
         calling <code>render</code>.
       </p>
@@ -460,9 +460,9 @@ export default () => {
       </p>
 
       <p>
-        Another benefit is that the app state is very{" "}
+        Another benefit is that the app state is very
         <strong>encapsulated</strong>, in one hash. You could serialize that
-        when you exit the app and then unserialize. When you call{" "}
+        when you exit the app and then unserialize. When you call
         <code>render</code> with the unserialized data, you'll be right back
         where you left off. You could even implement an undo feature in not too
         many lines of code or track history.
@@ -501,7 +501,7 @@ export default () => {
       </p>
 
       <p>
-        Go into your spec folder and edit the{" "}
+        Go into your spec folder and edit the
         <code>bit_coin_screen_spec.rb</code> file like this:
       </p>
 
@@ -549,16 +549,16 @@ export default () => {
         For ClearSight, we find that the <code>render</code> method is where our
         front end engineers and back end engineers meet. The front end can mock
         up the data they need to build the UI and call <code>render</code>, and
-        the back end can hook up the real data and call <code>render</code>{" "}
+        the back end can hook up the real data and call <code>render</code>
         without worrying about what happens after that all that much. It's a
         great way to meet in the middle.
       </p>
 
       <p>
-        If you're interested in being involved in the discussion, I've opened a{" "}
+        If you're interested in being involved in the discussion, I've opened a
         <a href="https://github.com/infinitered/redpotion/issues/63">
           Github issue
-        </a>{" "}
+        </a>
         on RedPotion. Or let me know what you think on Twitter!
       </p>
 
@@ -567,12 +567,13 @@ export default () => {
       <p>
         <em>
           Hat tip to <a href="https://twitter.com/hackflow">@hackflow</a> for
-          the great article,{" "}
+          the great article,
           <a href="http://hackflow.com/blog/2015/03/08/boiling-react-down-to-few-lines-in-jquery/">
             Boiling React down to a few lines of jQuery
-          </a>, which provided the inspiration for this blog post. Also thanks
-          to Matt Green, Darin Wilson, and Matthew Sinclair for their feedback
-          on early drafts.
+          </a>
+          , which provided the inspiration for this blog post. Also thanks to
+          Matt Green, Darin Wilson, and Matthew Sinclair for their feedback on
+          early drafts.
         </em>
       </p>
     </Page>

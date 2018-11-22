@@ -13,7 +13,7 @@ export default () => {
       <p>
         Recently, <a href="https://twitter.com/ryanlntn">Ryan Linton</a> and I
         ran into an annoying error with a RubyMotion iOS project. Every time
-        we'd run <code>rake device</code>, we'd get{" "}
+        we'd run <code>rake device</code>, we'd get
         <code>ApplicationVerification Failed</code>.
       </p>
 
@@ -53,7 +53,7 @@ export default () => {
       </p>
 
       <p>
-        We were trying to use HealthKit, and the App identifier in the{" "}
+        We were trying to use HealthKit, and the App identifier in the
         <a href="http://developer.apple.com">Apple Developer center</a> wasn't
         set up for that:
       </p>
@@ -83,16 +83,15 @@ export default () => {
       </pre>
 
       <p>
-        After a lot of headscratching, we enlisted the help of{" "}
+        After a lot of headscratching, we enlisted the help of
         <a href="https://twitter.com/seriousken">Ken Miller</a>, one of our good
         friends at <a href="http://infinitered.com/">InfiniteRed</a>. Ken
-        figured out that we were missing another entitlement,{" "}
+        figured out that we were missing another entitlement,
         <code>application-identifier</code>:
       </p>
 
       <pre>
         <code class="ruby language-ruby">
-          {" "}
           app.seed_id = 'SEEDIDHERE' app.identifier =
           'com.clearsightstudio.myapp'
           app.entitlements['application-identifier'] = app.seed_id + '.' +
@@ -104,7 +103,6 @@ export default () => {
 
       <pre>
         <code class="ruby language-ruby">
-          {" "}
           app.entitlements['com.apple.developer.healthkit'] = true
         </code>
       </pre>

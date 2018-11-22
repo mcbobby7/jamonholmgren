@@ -13,13 +13,13 @@ export default () => {
       <p>
         <a href="https://github.com/clearsightstudio/ProMotion">
           ProMotion 2.3
-        </a>{" "}
-        includes several useful new features and better compatibility with{" "}
+        </a>
+        includes several useful new features and better compatibility with
         <a href="https://github.com/infinitered/redpotion">RedPotion</a>. It
-        should be fully backwards-compatible with older version of ProMotion, so{" "}
+        should be fully backwards-compatible with older version of ProMotion, so
         <a href="https://github.com/clearsightstudio/ProMotion/issues">
           file an issue
-        </a>{" "}
+        </a>
         if you run into anything.
       </p>
 
@@ -28,7 +28,7 @@ export default () => {
       <h4 id="documentation">Documentation</h4>
 
       <p>
-        Documentation has been moved from the Wiki to a <code>./docs</code>{" "}
+        Documentation has been moved from the Wiki to a <code>./docs</code>
         folder within the repository itself. All pull requests should include
         relevant documentation updates, keeping our docs more in sync with the
         code base.
@@ -156,17 +156,17 @@ export default () => {
 
       <ul>
         <li>
-          <code>app</code>: shortcut for{" "}
+          <code>app</code>: shortcut for
           <code>UIApplication.sharedApplication</code>
         </li>
 
         <li>
-          <code>app_delegate</code>: shortcut for{" "}
+          <code>app_delegate</code>: shortcut for
           <code>UIApplication.sharedApplication.delegate</code>
         </li>
 
         <li>
-          <code>app_window</code>: shortcut for{" "}
+          <code>app_window</code>: shortcut for
           <code>UIApplication.sharedApplication.delegate.window</code>
         </li>
 

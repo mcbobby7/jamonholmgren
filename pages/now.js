@@ -20,28 +20,38 @@ export default () => {
       </p>
 
       <p>
-        My family had a <a href='https://www.facebook.com/jamon.holmgren/posts/10156004630782090?pnref=story'>huge, life-altering event</a> happen on Christmas Eve.
-        We returned home to find our house burglarized and on fire. We are thankful everyone is safe and
-        that law enforcement caught the suspects.
+        My family had a
+        <a href="https://www.facebook.com/jamon.holmgren/posts/10156004630782090?pnref=story">
+          huge, life-altering event
+        </a>
+        happen on Christmas Eve. We returned home to find our house burglarized
+        and on fire. We are thankful everyone is safe and that law enforcement
+        caught the suspects.
       </p>
 
       <p>
-        While this has been a topsy-turvy event in our lives, life does go on. Here's what I'm up to:
+        While this has been a topsy-turvy event in our lives, life does go on.
+        Here's what I'm up to:
       </p>
 
       <ul>
         <li>
-          We are back in our home as of May and settling in. It's been great to be back in our own place!
+          We are back in our home as of May and settling in. It's been great to
+          be back in our own place!
         </li>
         <li>
           Our family has a cat, Willow, who is about a year and a half old.
         </li>
         <li>
-          I'm continuing to work out in my <Link href="https://twitter.com/jamonholmgren/status/1021553760961736704">new home gym</Link>.
+          I'm continuing to work out in my
+          <a href="https://twitter.com/jamonholmgren/status/1021553760961736704">
+            new home gym
+          </a>
+          .
         </li>
         <li>
           <Link prefetch href="/tech">
-            Playing with some new languages and frameworks
+            <a>Playing with some new languages and frameworks</a>
           </Link>
         </li>
       </ul>
