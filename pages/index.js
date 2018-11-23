@@ -6,7 +6,7 @@ export default () => {
   return (
     <Page title="The personal website of Jamon">
       <div className="photo-wall">
-        <img src="/static/family.jpg" alt="My family" />
+        <img src="/static/family-2018.jpg" alt="My family" />
         <img
           src="/static/basketball.jpg"
           alt="Playing some pick up basketball"
@@ -62,10 +62,24 @@ export default () => {
         <a href="mailto:jamon@infinite.red">jamon@infinite.red</a>.
       </p>
 
-      <p>
-        Or...check out a cool pathfinding demo I just wrote in Elm!{" "}
-        <a href="/static/path.html">Pathfinding Demo</a>
-      </p>
+      <h4>Or...</h4>
+
+      <ul>
+        <li>
+          Check out a cool pathfinding demo I wrote in Elm!{" "}
+          <a href="/static/path.html">Pathfinding Demo</a>
+        </li>
+        <li>
+          Listen to a recent Podcast interview:{" "}
+          <a href="https://www.virtualnotdistant.com/podcasts/remote-teams-conversation">
+            21st Century Work Life
+          </a>
+        </li>
+        <li>
+          Watch a lightning talk I gave at{" "}
+          <a href="https://www.youtube.com/watch?v=DOgT_K5tLxU">ElixirConf</a>
+        </li>
+      </ul>
 
       <style jsx>{`
         .opening {
