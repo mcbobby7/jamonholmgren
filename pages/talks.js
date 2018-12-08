@@ -24,12 +24,11 @@ export default () => {
 
       <ul>
         <li>
-          I haven't announced this yet (so keep it quiet for now), but I will be
-          speaking at{" "}
+          I will be speaking at{" "}
           <a href="https://byteconf.com/react-native-2018">
             ByteConf React Native
           </a>{" "}
-          on December 14, 2018! I will be speaking about{" "}
+          on Friday, December 14, 2018! I will be speaking about{" "}
           <a href="https://infinite.red/ignite">
             Making React Native Development better with Ignite
           </a>
