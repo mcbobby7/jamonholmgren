@@ -20,10 +20,10 @@ export default () => {
       </p>
 
       <p>
-        My family had a
+        My family had a{" "}
         <a href="https://www.facebook.com/jamon.holmgren/posts/10156004630782090?pnref=story">
           huge, life-altering event
-        </a>
+        </a>{" "}
         happen on Christmas Eve. We returned home to find our house burglarized
         and on fire. We are thankful everyone is safe and that law enforcement
         caught the suspects.
