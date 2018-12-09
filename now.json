@@ -5,108 +5,112 @@
   "routes": [
     {
       "src": "/inspect-uiwebview-with-safari",
-      "dest": "/archive/inspect-uiwebview-with-safari",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/inspect-uiwebview-with-safari" }
     },
     {
       "src": "/applicationverification-failed",
-      "dest": "/archive/applicationverification-failed",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/applicationverification-failed" }
     },
     {
       "src": "/bootcamp-windows-10",
-      "dest": "/archive/bootcamp-windows-10",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/bootcamp-windows-10" }
     },
     {
       "src": "/deprecating-promotion-form",
-      "dest": "/archive/deprecating-promotion-form",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/deprecating-promotion-form" }
     },
     {
       "src": "/four",
-      "dest": "/archive/four-day-workweeks",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/four-day-workweeks" }
     },
     {
       "src": "/hex",
-      "dest": "/archive/hex",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/hex" }
     },
     {
       "src": "/iap",
-      "dest": "/archive/iap",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/iap" }
     },
     {
       "src": "/live",
-      "dest": "/archive/live",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/live" }
     },
     {
       "src": "/next",
-      "dest": "/archive/next",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/next" }
     },
     {
       "src": "/uninstalling-united-airlines-drm-plugin",
-      "dest": "/archive/uninstalling-united-airlines-drm-plugin",
-      "status": 301
+      "status": 301,
+      "headers": {
+        "Location": "/archive/uninstalling-united-airlines-drm-plugin"
+      }
     },
     {
       "src": "/inspect2015",
-      "dest": "/archive/inspect2015",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/inspect2015" }
     },
     {
       "src": "/new-again",
-      "dest": "/archive/new-again",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/new-again" }
     },
     {
       "src": "/speed",
-      "dest": "/archive/speed",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/speed" }
     },
     {
       "src": "/speed2",
-      "dest": "/archive/speed2",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/speed2" }
     },
     {
       "src": "/ten",
-      "dest": "/archive/ten",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/ten" }
     },
     {
       "src": "/what-i-ll-write",
-      "dest": "/archive/what-i-ll-write",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/what-i-ll-write" }
     },
     {
       "src": "/rubymotion-react-pattern",
-      "dest": "/archive/rubymotion-react-pattern",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/rubymotion-react-pattern" }
     },
     {
       "src": "/promotion-2-3-notable-changes",
-      "dest": "/archive/promotion-2-3-notable-changes",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/promotion-2-3-notable-changes" }
     },
     {
       "src": "/finder-disk-utilities-hard-drive-space",
-      "dest": "/archive/finder-disk-utilities-hard-drive-space",
-      "status": 301
+      "status": 301,
+      "headers": {
+        "Location": "/archive/finder-disk-utilities-hard-drive-space"
+      }
     },
     {
       "src": "/cleaner-view-rendering-in-rails",
-      "dest": "/archive/cleaner-view-rendering-in-rails",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "/archive/cleaner-view-rendering-in-rails" }
     },
     {
       "src": "/tutorial/1/name-of-tutorial",
-      "dest": "https://codedaily.io/",
-      "status": 301
+      "status": 301,
+      "headers": { "Location": "https://codedaily.io/" }
     }
   ]
 }
