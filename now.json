@@ -1,6 +1,7 @@
 {
   "alias": ["jamonholmgren.com", "www.jamonholmgren.com"],
   "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
   "routes": [
     {
       "src": "/inspect-uiwebview-with-safari",
