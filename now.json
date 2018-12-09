@@ -1,4 +1,106 @@
 {
   "alias": ["jamonholmgren.com", "www.jamonholmgren.com"],
-  "version": 2
+  "version": 2,
+  "routes": [
+    {
+      "src": "/inspect-uiwebview-with-safari",
+      "dest": "/archive/inspect-uiwebview-with-safari",
+      "status": 301
+    },
+    {
+      "src": "/applicationverification-failed",
+      "dest": "/archive/applicationverification-failed",
+      "status": 301
+    },
+    {
+      "src": "/bootcamp-windows-10",
+      "dest": "/archive/bootcamp-windows-10",
+      "status": 301
+    },
+    {
+      "src": "/deprecating-promotion-form",
+      "dest": "/archive/deprecating-promotion-form",
+      "status": 301
+    },
+    {
+      "src": "/four",
+      "dest": "/archive/four-day-workweeks",
+      "status": 301
+    },
+    {
+      "src": "/hex",
+      "dest": "/archive/hex",
+      "status": 301
+    },
+    {
+      "src": "/iap",
+      "dest": "/archive/iap",
+      "status": 301
+    },
+    {
+      "src": "/live",
+      "dest": "/archive/live",
+      "status": 301
+    },
+    {
+      "src": "/next",
+      "dest": "/archive/next",
+      "status": 301
+    },
+    {
+      "src": "/uninstalling-united-airlines-drm-plugin",
+      "dest": "/archive/uninstalling-united-airlines-drm-plugin",
+      "status": 301
+    },
+    {
+      "src": "/inspect2015",
+      "dest": "/archive/inspect2015",
+      "status": 301
+    },
+    {
+      "src": "/new-again",
+      "dest": "/archive/new-again",
+      "status": 301
+    },
+    {
+      "src": "/speed",
+      "dest": "/archive/speed",
+      "status": 301
+    },
+    {
+      "src": "/speed2",
+      "dest": "/archive/speed2",
+      "status": 301
+    },
+    {
+      "src": "/ten",
+      "dest": "/archive/ten",
+      "status": 301
+    },
+    {
+      "src": "/what-i-ll-write",
+      "dest": "/archive/what-i-ll-write",
+      "status": 301
+    },
+    {
+      "src": "/rubymotion-react-pattern",
+      "dest": "/archive/rubymotion-react-pattern",
+      "status": 301
+    },
+    {
+      "src": "/promotion-2-3-notable-changes",
+      "dest": "/archive/promotion-2-3-notable-changes",
+      "status": 301
+    },
+    {
+      "src": "/finder-disk-utilities-hard-drive-space",
+      "dest": "/archive/finder-disk-utilities-hard-drive-space",
+      "status": 301
+    },
+    {
+      "src": "/cleaner-view-rendering-in-rails",
+      "dest": "/archive/cleaner-view-rendering-in-rails",
+      "status": 301
+    }
+  ]
 }

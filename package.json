@@ -2,7 +2,7 @@
   "name": "jamonholmgren",
   "version": "2.1.0",
   "description": "jamonholmgren.com",
-  "main": "index.js",
+  "main": "pages/index.js",
   "scripts": {
     "test": "test",
     "dev": "next",
