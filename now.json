@@ -102,6 +102,11 @@
       "src": "/cleaner-view-rendering-in-rails",
       "dest": "/archive/cleaner-view-rendering-in-rails",
       "status": 301
+    },
+    {
+      "src": "/tutorial/1/name-of-tutorial",
+      "dest": "https://codedaily.io/",
+      "status": 301
     }
   ]
 }
