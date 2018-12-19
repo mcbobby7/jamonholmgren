@@ -49,7 +49,8 @@ export default () => {
           <a href="https://infinite.red/ignite">
             Making React Native Development better with Ignite
           </a>
-          . I'll post the video when it's available.
+          <br />
+          <YouTube videoId="RY2TMZCO9Wo" />
         </li>
         <li>
           I was on the{" "}
