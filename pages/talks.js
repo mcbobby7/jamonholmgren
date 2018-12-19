@@ -24,28 +24,33 @@ export default () => {
 
       <ul>
         <li>
-          I will be speaking at{" "}
-          <a href="https://byteconf.com/react-native-2018">
-            ByteConf React Native
-          </a>{" "}
-          on Friday, December 14, 2018! I will be speaking about{" "}
-          <a href="https://infinite.red/ignite">
-            Making React Native Development better with Ignite
-          </a>
-          . This conference is free and online, so I hope to see you there!
+          I have been accepted to speak at an upcoming React conference. More
+          details coming soon!
         </li>
         <li>
           I'm organizing the{" "}
           <a href="https://www.meetup.com/React-Native-Portland/">
             React Native Portland Meetup
-          </a>
-          ...check it out on Meetup and come join us if you can!
+          </a>{" "}
+          and will be speaking at it December 20...check it out on Meetup and
+          come join us if you can!
         </li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I spoke at{" "}
+          <a href="https://byteconf.com/react-native-2018">
+            ByteConf React Native
+          </a>{" "}
+          on Friday, December 14, 2018. I spoke about{" "}
+          <a href="https://infinite.red/ignite">
+            Making React Native Development better with Ignite
+          </a>
+          . I'll post the video when it's available.
+        </li>
         <li>
           I was on the{" "}
           <a href="https://www.virtualnotdistant.com/podcasts/remote-teams-conversation">
