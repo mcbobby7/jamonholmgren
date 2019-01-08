@@ -1,7 +1,6 @@
 import React from "react";
 import Page from "../components/page";
 import Link from "../components/link";
-// import YouTube from "react-youtube";
 
 export default () => {
   const imgWidth = "600";

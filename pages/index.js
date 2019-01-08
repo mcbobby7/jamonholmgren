@@ -66,6 +66,10 @@ export default () => {
 
       <ul>
         <li>
+          See how I built a home gym for under $3,000:{" "}
+          <a href="/gym">Building My Home Garage Gym</a>
+        </li>
+        <li>
           Check out a cool pathfinding demo I wrote in Elm!{" "}
           <a href="/static/path.html">Pathfinding Demo</a>
         </li>
