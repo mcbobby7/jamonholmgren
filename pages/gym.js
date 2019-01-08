@@ -288,7 +288,7 @@ export default () => {
         I haven't gotten around to mounting these yet (I'm waiting until I get
         time to also get the mirrors listed at the end of this), but they seem
         sturdy enough. They're from Titan, which is a lower-cost alternative to
-        Rogue. For wall racks, I figure the cheaper option is fine (I wouldn't
+        Rogue. For wall storage, I figure the cheaper option is fine (I wouldn't
         buy a Titan wall rack though).
       </p>
 
