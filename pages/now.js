@@ -21,7 +21,7 @@ export default () => {
 
       <p>
         My family had a{" "}
-        <a href="https://www.facebook.com/jamon.holmgren/posts/10156004630782090?pnref=story">
+        <a href="https://twitter.com/jamonholmgren/status/945465737874829317">
           huge, life-altering event
         </a>{" "}
         happen on Christmas Eve. We returned home to find our house burglarized
@@ -44,9 +44,9 @@ export default () => {
         </li>
         <li>
           I'm continuing to work out in my{" "}
-          <a href="https://twitter.com/jamonholmgren/status/1021553760961736704">
+          <Link prefetch href="/gym">
             new home gym
-          </a>
+          </Link>
           .
         </li>
         <li>
