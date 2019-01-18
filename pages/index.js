@@ -18,7 +18,7 @@ export default () => {
 
       <p>
         When my dad brought home a 286 in 1991, I was enthralled. I watched as
-        he painstakingly typed and simultaneously repeated
+        he painstakingly typed and simultaneously repeated{" "}
         <code>cd backslash games enter</code> and saw the screen scroll and
         change. It was mind-blowing to a ten year old.
       </p>

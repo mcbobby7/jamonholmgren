@@ -24,22 +24,34 @@ export default () => {
 
       <ul>
         <li>
-          I have been accepted to speak at an upcoming React conference. More
-          details coming soon!
+          I will be the first speaker at the new meetup in Vancouver,
+          Washington, called{" "}
+          <a href="https://www.meetup.com/Vancouver-Full-Stack/events/258023247/">
+            Vancouver Full Stack
+          </a>
+          ! I'll be speaking about Modern JavaScript. Join us for the first
+          event for this new meetup!
         </li>
         <li>
-          I'm organizing the{" "}
-          <a href="https://www.meetup.com/React-Native-Portland/">
-            React Native Portland Meetup
-          </a>{" "}
-          and will be speaking at it December 20...check it out on Meetup and
-          come join us if you can!
+          I've been invited to speak at{" "}
+          <a href="https://react-finland.fi">React Finland</a> and will be
+          speaking about <a href="https://infinite.red/ignite">Ignite</a>! Let
+          me know <a href="https://twitter.com/jamonholmgren">on Twitter</a> if
+          you'll be there.
         </li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I spoke at the{" "}
+          <a href="https://www.meetup.com/React-Native-Portland/">
+            React Native Portland Meetup
+          </a>{" "}
+          on Thursday, December 20 about writing React Native modules in
+          Objective-C and Java.
+        </li>
         <li>
           I spoke at{" "}
           <a href="https://byteconf.com/react-native-2018">

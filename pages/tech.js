@@ -17,6 +17,12 @@ export default () => {
         and playing with.
       </p>
 
+      <h3>Gluegun CLI</h3>
+
+      <p>I've been working a lot on Gluegun, our CLI system, and recently released version 2.0!</p>
+
+      <TweetEmbed id="1075473950107410433" />
+
       <h3>Electron</h3>
 
       <p>I'm working on a still-secret Electron app:</p>

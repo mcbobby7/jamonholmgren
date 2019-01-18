@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated November 21, 2018. 🎃</em>
+        <em>Last updated Januar 18, 2019. 🎃</em>
       </p>
 
       <p>
@@ -24,9 +24,10 @@ export default () => {
         <a href="https://twitter.com/jamonholmgren/status/945465737874829317">
           huge, life-altering event
         </a>{" "}
-        happen on Christmas Eve. We returned home to find our house burglarized
-        and on fire. We are thankful everyone is safe and that law enforcement
-        caught the suspects.
+        happen on Christmas Eve, 2017. We returned home to find our house
+        burglarized and on fire. We are thankful everyone is safe and that law
+        enforcement caught the suspects. We're now back in our house and settled
+        back in.
       </p>
 
       <p>
@@ -36,8 +37,11 @@ export default () => {
 
       <ul>
         <li>
-          We are back in our home as of May and settling in. It's been great to
-          be back in our own place!
+          I'm{" "}
+          <a href="https://twitter.com/jamonholmgren/status/1083544483214446592">
+            learning to play piano
+          </a>{" "}
+          with my 10 year old daughter!
         </li>
         <li>
           Our family has a cat, Willow, who is about a year and a half old.
