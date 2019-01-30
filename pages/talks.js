@@ -29,14 +29,24 @@ export default () => {
           <a href="https://www.meetup.com/Vancouver-Full-Stack/events/258023247/">
             Vancouver Full Stack
           </a>
-          ! I'll be speaking about Modern JavaScript. Join us for the first
+          , ! I'll be speaking about Modern JavaScript. Join us for the first
           event for this new meetup!
+        </li>
+        <li>
+          I will be giving a talk at Portland State University about React Native
+          on February 29.
         </li>
         <li>
           I've been invited to speak at{" "}
           <a href="https://react-finland.fi">React Finland</a> and will be
           speaking about <a href="https://infinite.red/ignite">Ignite</a>! Let
           me know <a href="https://twitter.com/jamonholmgren">on Twitter</a> if
+          you'll be there.
+        </li>
+        <li>
+          I will be speaking at{" "}
+          <a href="https://infinite.red/ChainReactConf">Chain React 2019</a>! Topic TBD.
+          Let me know <a href="https://twitter.com/jamonholmgren">on Twitter</a> if
           you'll be there.
         </li>
       </ul>
