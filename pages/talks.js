@@ -12,7 +12,7 @@ export default () => {
       <h1>Talks -- Recent and Upcoming</h1>
 
       <p>
-        I sometimes give talks at conferences (when I'm not
+        I sometimes give talks at conferences (when I'm not{" "}
         <a href="https://infinite.red/ChainReactConf">helping organize one</a>)
         and meetups. I've added links to a few here and will try to keep it up
         to date. In the upcoming section, I've also added some other meetups and
@@ -24,36 +24,45 @@ export default () => {
 
       <ul>
         <li>
-          I will be the first speaker at the new meetup in Vancouver,
-          Washington, called{" "}
-          <a href="https://www.meetup.com/Vancouver-Full-Stack/events/258023247/">
-            Vancouver Full Stack
-          </a>
-          , ! I'll be speaking about Modern JavaScript. Join us for the first
-          event for this new meetup!
-        </li>
-        <li>
-          I will be giving a talk at Portland State University about React Native
-          on February 29.
-        </li>
-        <li>
           I've been invited to speak at{" "}
-          <a href="https://react-finland.fi">React Finland</a> and will be
-          speaking about <a href="https://infinite.red/ignite">Ignite</a>! Let
-          me know <a href="https://twitter.com/jamonholmgren">on Twitter</a> if
-          you'll be there.
+          <a href="https://react-finland.fi">React Finland</a> on April 24-26
+          and will be speaking about{" "}
+          <a href="https://infinite.red/ignite">Ignite</a>! Let me know{" "}
+          <a href="https://twitter.com/jamonholmgren">on Twitter</a> if you'll
+          be there.
+        </li>
+        <li>
+          I'm planning to go to{" "}
+          <a href="https://runningremote.com">RunningRemote</a> in June!
         </li>
         <li>
           I will be speaking at{" "}
-          <a href="https://infinite.red/ChainReactConf">Chain React 2019</a>! Topic TBD.
-          Let me know <a href="https://twitter.com/jamonholmgren">on Twitter</a> if
-          you'll be there.
+          <a href="https://infinite.red/ChainReactConf">Chain React 2019</a>!
+          Topic TBD. Let me know{" "}
+          <a href="https://twitter.com/jamonholmgren">on Twitter</a> if you'll
+          be there.
         </li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I gave a talk at Portland State University about React Native on
+          February 29.
+        </li>
+        <li>
+          I was the first speaker at the new meetup in Vancouver, Washington,
+          called{" "}
+          <a href="https://www.meetup.com/Vancouver-Full-Stack/events/258023247/">
+            Vancouver Full Stack
+          </a>
+          , ! I spoke about Modern JavaScript.
+          <br />
+          <p>
+            <em>Youtube video coming soon!</em>
+          </p>
+        </li>
         <li>
           I spoke at the{" "}
           <a href="https://www.meetup.com/React-Native-Portland/">

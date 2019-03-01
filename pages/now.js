@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated Januar 18, 2019. 🎃</em>
+        <em>Last updated February 28, 2019. 🎃</em>
       </p>
 
       <p>
@@ -41,7 +41,7 @@ export default () => {
           <a href="https://twitter.com/jamonholmgren/status/1083544483214446592">
             learning to play piano
           </a>{" "}
-          with my 10 year old daughter!
+          with my 11 year old daughter!
         </li>
         <li>
           Our family has a cat, Willow, who is about a year and a half old.

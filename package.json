@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start"
   },
+  "prettier": {},
   "author": "Jamon Holmgren",
   "license": "MIT",
   "dependencies": {
