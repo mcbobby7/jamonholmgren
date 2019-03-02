@@ -33,7 +33,7 @@ export default () => {
         </li>
         <li>
           I'm planning to go to{" "}
-          <a href="https://runningremote.com">RunningRemote</a> in June!
+          <a href="https://runningremote.com">RunningRemote</a> in Bali in June!
         </li>
         <li>
           I will be speaking at{" "}
@@ -49,7 +49,7 @@ export default () => {
       <ul>
         <li>
           I gave a talk at Portland State University about React Native on
-          February 29.
+          February 29. It went really well!
         </li>
         <li>
           I was the first speaker at the new meetup in Vancouver, Washington,
@@ -59,9 +59,7 @@ export default () => {
           </a>
           , ! I spoke about Modern JavaScript.
           <br />
-          <p>
-            <em>Youtube video coming soon!</em>
-          </p>
+          <YouTube videoId="wXvXcrjgiXw" />
         </li>
         <li>
           I spoke at the{" "}
@@ -80,8 +78,6 @@ export default () => {
           <a href="https://infinite.red/ignite">
             Making React Native Development better with Ignite
           </a>
-          <br />
-          <YouTube videoId="RY2TMZCO9Wo" />
         </li>
         <li>
           I was on the{" "}
