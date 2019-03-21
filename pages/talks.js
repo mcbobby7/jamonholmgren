@@ -154,6 +154,11 @@ export default () => {
           Clark College on June 1, 2017 - Vancouver, Washington - I was a guest
           speaker
         </li>
+        <li>
+          I was interviewed on the Cultivate Now Podcast with Jonathan Sharp.{" "}
+          <a href="https://remote.works/episode/2">Link to the episode</a> and{" "}
+          <a href="https://remote.works/episode/2/transcript">transcript</a>.
+        </li>
       </ul>
     </Page>
   );
