@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated February 28, 2019. 🎃</em>
+        <em>Last updated March 21, 2019. 🎃</em>
       </p>
 
       <p>
@@ -40,8 +40,10 @@ export default () => {
           I'm{" "}
           <a href="https://twitter.com/jamonholmgren/status/1083544483214446592">
             learning to play piano
-          </a>{" "}
-          with my 11 year old daughter!
+          </a>
+          ! My current plan is to learn one song per month. So far, I've learned
+          Monody by the Fat Rat and am working on Sound of Silence by Simon and
+          Garfunkel.
         </li>
         <li>
           Our family has a cat, Willow, who is about a year and a half old.

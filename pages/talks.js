@@ -36,17 +36,20 @@ export default () => {
           <a href="https://runningremote.com">RunningRemote</a> in Bali in June!
         </li>
         <li>
-          I will be speaking at{" "}
+          I will be on the speaker panel at{" "}
           <a href="https://infinite.red/ChainReactConf">Chain React 2019</a>!
-          Topic TBD. Let me know{" "}
-          <a href="https://twitter.com/jamonholmgren">on Twitter</a> if you'll
-          be there.
+          Let me know <a href="https://twitter.com/jamonholmgren">on Twitter</a>{" "}
+          if you'll be there.
         </li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I was on the <a href="https://reactpodcast.com/43">React Podcast</a>{" "}
+          with Michael Chan. He's a great interviewer. Give it a listen!
+        </li>
         <li>
           I gave a talk at Portland State University about React Native on
           February 29. It went really well!
