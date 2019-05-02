@@ -21,18 +21,9 @@ export default () => {
       </p>
 
       <h3>Upcoming</h3>
-
       <ul>
         <li>
-          I've been invited to speak at{" "}
-          <a href="https://react-finland.fi">React Finland</a> on April 24-26
-          and will be speaking about{" "}
-          <a href="https://infinite.red/ignite">Ignite</a>! Let me know{" "}
-          <a href="https://twitter.com/jamonholmgren">on Twitter</a> if you'll
-          be there.
-        </li>
-        <li>
-          I'm planning to go to{" "}
+          I'm a backup speaker at{" "}
           <a href="https://runningremote.com">RunningRemote</a> in Bali in June!
         </li>
         <li>
@@ -41,11 +32,45 @@ export default () => {
           Let me know <a href="https://twitter.com/jamonholmgren">on Twitter</a>{" "}
           if you'll be there.
         </li>
+        <li>
+          I'm planning to give a talk at{" "}
+          <a href="https://react-native.eu/">React Native EU</a> in September.
+        </li>
+        <li>
+          I also have another super-secret talk in Europe scheduled for
+          September, pending announcement.
+        </li>
       </ul>
 
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I spoke at <a href="https://react-finland.fi">React Finland 2019</a>!
+          You can see the video here:
+          <br />
+          <YouTube videoId="gTG8_9Zv0YI" />
+          <br />
+          My slides are here:{" "}
+          <a href="/static/downloads/ReactFinland-Jamon-Holmgren-Slides.pdf">
+            ReactFinland-Jamon-Holmgren-Slides.pdf
+          </a>
+        </li>
+        <li>
+          While I was in Finland, I also gave a talk about React Native WebView
+          at{" "}
+          <a href="https://meetabit.com/events/react-helsinki-april-2019">
+            React Helsinki
+          </a>
+          ! They have a video, which I will post when it's available.
+          <br />
+          {/* <YouTube videoId="gTG8_9Zv0YI" /> */}
+          <br />
+          My slides are here:{" "}
+          <a href="/static/downloads/ReactHelsinki-Jamon-Holmgren-Slides.pdf">
+            ReactFinland-Jamon-Holmgren-Slides.pdf
+          </a>
+        </li>
         <li>
           I was on the <a href="https://reactpodcast.com/43">React Podcast</a>{" "}
           with Michael Chan. He's a great interviewer. Give it a listen!
