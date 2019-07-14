@@ -2,6 +2,7 @@ import React from "react";
 // import Link from "next/link";
 import Page from "../components/page";
 import YouTube from "react-youtube";
+import TweetEmbed from "react-tweet-embed";
 
 export default () => {
   return (
@@ -23,16 +24,6 @@ export default () => {
       <h3>Upcoming</h3>
       <ul>
         <li>
-          I'm a backup speaker at{" "}
-          <a href="https://runningremote.com">RunningRemote</a> in Bali in June!
-        </li>
-        <li>
-          I will be on the speaker panel at{" "}
-          <a href="https://infinite.red/ChainReactConf">Chain React 2019</a>!
-          Let me know <a href="https://twitter.com/jamonholmgren">on Twitter</a>{" "}
-          if you'll be there.
-        </li>
-        <li>
           I'm planning to give a talk at{" "}
           <a href="https://react-native.eu/">React Native EU</a> in September.
         </li>
@@ -45,6 +36,22 @@ export default () => {
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I am an organizer and was on the speaker panel at{" "}
+          <a href="https://infinite.red/ChainReactConf">Chain React 2019</a> in
+          July, 2019! It was an amazing conference all around. I'll post the
+          YouTube video once it's available.
+          <br />
+          <TweetEmbed id="1149780351633391618" />
+        </li>
+        <li>
+          I was a backup speaker at{" "}
+          <a href="https://runningremote.com">RunningRemote</a> in Bali in June.
+          While I didn't give a talk, I did get a chance to be at that amazing
+          conference, which I really loved.
+          <br />
+          <TweetEmbed id="1144773212791697408" />
+        </li>
         <li>
           I spoke at <a href="https://react-finland.fi">React Finland 2019</a>!
           You can see the video here:

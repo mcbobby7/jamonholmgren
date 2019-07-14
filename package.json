@@ -17,7 +17,7 @@
     "nprogress": "^0.2.0",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
-    "react-tweet-embed": "^1.0.8",
+    "react-tweet-embed": "^1.2.2",
     "react-youtube": "^7.4.0"
   }
 }

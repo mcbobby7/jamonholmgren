@@ -19,23 +19,23 @@ export default () => {
 
       <h3>Gluegun CLI</h3>
 
-      <p>I've been working a lot on Gluegun, our CLI system, and recently released version 2.0!</p>
+      <p>
+        I've been working a lot on Gluegun, our CLI system, and recently
+        released version 2.0!
+      </p>
 
       <TweetEmbed id="1075473950107410433" />
 
       <h3>Electron</h3>
 
-      <p>I'm working on a still-secret Electron app:</p>
-
-      <TweetEmbed id="1062546567800926208" />
-
       <p>I kinda love Electron, to be honest.</p>
 
-      <h3>React Native Core Team</h3>
+      <h3>React Native Community Core Team</h3>
 
       <p>
-        I've recently joined the React Native core team and have been working on
-        "The Slimmening" initiative.
+        I've recently joined the React Native community core team and have been
+        working on the "Lean Core" initiative, specifically the WebView, which I{" "}
+        <a href="/talks">talked about</a> recently.
       </p>
 
       <TweetEmbed id="1050893463762300928" />

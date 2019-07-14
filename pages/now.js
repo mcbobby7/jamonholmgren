@@ -36,18 +36,7 @@ export default () => {
       </p>
 
       <ul>
-        <li>
-          I'm{" "}
-          <a href="https://twitter.com/jamonholmgren/status/1083544483214446592">
-            learning to play piano
-          </a>
-          ! My current plan is to learn one song per month. So far, I've learned
-          Monody by the Fat Rat and am working on Sound of Silence by Simon and
-          Garfunkel.
-        </li>
-        <li>
-          Our family has a cat, Willow, who is about a year and a half old.
-        </li>
+        <li>Our family has a cat, Willow, who is two years old.</li>
         <li>
           I'm continuing to work out in my{" "}
           <Link prefetch href="/gym">
