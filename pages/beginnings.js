@@ -150,17 +150,17 @@ export default () => {
         In late 2015, I felt like I had pushed ClearSight as far as I could go,
         and was running up against some of my own limitations. Todd Werth and I
         had become good friends and we were working together on several open
-        source projects. After a lot of discussion between us and also involving
-        Ken Miller, Todd's business partner, we merged our two companies and
-        created the design and development agency{" "}
+        source projects. After a lot of discussion between us, we merged our two
+        companies and created the design and development agency{" "}
         <a href="https://infinite.red">Infinite Red</a>.
       </p>
       <p>
-        That brings us to today. My role is Chief Operating Officer as well as
-        co-CTO. I manage a portion of our projects as well as sales and
-        developing partnerships and relationships with other businesses. I'm
-        very lucky to have Todd and Ken as partners and we've built a company of
-        24 awesome designers, developers, and support staff.
+        That brings us to today. My role is Chief Technology Officer as well as
+        head of technical sales. My day-to-day work is leading our technical
+        team and developing partnerships and relationships with other
+        businesses. I'm very lucky to have Todd and Gant Laborde as partners and
+        we've built a company of about 30 awesome designers, developers, and
+        support staff.
       </p>
 
       <img
@@ -171,9 +171,7 @@ export default () => {
 
       <img src="/static/jamon-family.JPG" alt="My family" id="jamon-family" />
 
-      <figcaption>
-        My family - my wife Chyra, Cedric, Cally, Vanna, and Vessa
-      </figcaption>
+      <figcaption>My family - my wife Chyra and our four kids</figcaption>
       <p className="next-steps">
         <em>
           <Link prefetch href="/now">

@@ -14,15 +14,9 @@ export default props => (
       <link rel="shortcut icon" href="/static/favicon.ico" />
       <title>{props.title || "Personal website"} - Jamon Holmgren</title>
       <meta name="description" content={props.description} />
-      {/* <link
-        rel='stylesheet'
-        type='text/css'
-        href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700'
-      /> */}
       <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
         rel="stylesheet"
-        type="text/css"
-        href="//fonts.googleapis.com/css?family=Average+Sans:400|Rancho:400|Source+Sans+Pro:400,400italic,700normal,700italic"
       />
       <link
         data-fontset-id="ce-fontset"
@@ -32,27 +26,24 @@ export default props => (
     </Head>
     <style jsx global>{`
       body {
-         {
-          /* font-family: 'Source Sans Pro', 'Open Sans', sans-serif; */
-        }
-        font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+        font-family: "Source Sans Pro", "Open Sans", sans-serif;
+        /* font-family: "Playfair Display", Helvetica, Arial, sans-serif; */
 
         font-size: 17px;
         padding: 40px 10px;
         margin: 0;
         line-height: 1.5em;
-         {
-          /* font-weight: 100; */
-        }
         background-color: white;
       }
       * {
         box-sizing: border-box;
       }
 
-      h1 {
+      h1,
+      h2 {
         font-weight: normal;
         line-height: 1.25em;
+        font-family: "Roboto Mono", monospace;
       }
 
       a {

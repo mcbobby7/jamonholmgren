@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated March 21, 2019. 🎃</em>
+        <em>Last updated July 16, 2019. 🎃</em>
       </p>
 
       <p>
