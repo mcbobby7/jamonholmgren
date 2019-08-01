@@ -28,8 +28,19 @@ export default () => {
           <a href="https://react-native.eu/">React Native EU</a> in September.
         </li>
         <li>
-          I also have another super-secret talk in Europe scheduled for
-          September, pending announcement.
+          On the same trip as the React Native EU conference, I will also be
+          speaking at <a href="https://reactlive.nl/">React Live Amsterdam!</a>{" "}
+          I can't wait!
+          <br />
+          <TweetEmbed id="1152044689710673920" />
+        </li>
+        <li>
+          After I get home from Europe, the following month (in October) I'll be
+          speaking at a conference in Florida,{" "}
+          <a href="https://www.ancientcityruby.com/#/speakers?lang=en&speakerId=7865000000135002">
+            Ancient City Ruby/Rails/React
+          </a>
+          .
         </li>
       </ul>
 
@@ -37,10 +48,19 @@ export default () => {
 
       <ul>
         <li>
+          I was a guest on the panel at{" "}
+          <a href="https://devchat.tv/react-native-radio/rnr-128-chain-react-with-jamon-holmgren/">
+            React Native Radio
+          </a>{" "}
+          for the July 30, 2019 edition.
+        </li>
+        <li>
           I am an organizer and was on the speaker panel at{" "}
           <a href="https://infinite.red/ChainReactConf">Chain React 2019</a> in
-          July, 2019! It was an amazing conference all around. I'll post the
-          YouTube video once it's available.
+          July, 2019! It was an amazing conference all around. Here's the video
+          of my panel appearance.
+          <br />
+          <YouTube videoId="Jm19JlVukak" />
           <br />
           <TweetEmbed id="1149780351633391618" />
         </li>
