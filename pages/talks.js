@@ -55,6 +55,13 @@ export default () => {
           for the July 30, 2019 edition.
         </li>
         <li>
+          I was interviewed in June for DistantJobs podcast. They just launched
+          a new website -- check it out!{" "}
+          <a href="https://distantjob.com/blog/podcasts/leading-a-fully-remote-team-with-jamon-holmgren/">
+            Leading a Fully Remote Team with Jamon Holmgren
+          </a>
+        </li>
+        <li>
           I am an organizer and was on the speaker panel at{" "}
           <a href="https://infinite.red/ChainReactConf">Chain React 2019</a> in
           July, 2019! It was an amazing conference all around. Here's the video
