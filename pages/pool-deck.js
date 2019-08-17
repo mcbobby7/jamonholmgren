@@ -1140,16 +1140,13 @@ export default () => {
           height: 300px;
         }
         .image-wrapper {
-          display: block;
+          display: inline-block;
           padding: 10px;
-          float: left;
           border: 1px solid #ddd;
           margin: 15px 15px;
           overflow: hidden;
         }
         p {
-          clear: left;
-          margin: 15px 0 0 0;
         }
       `}</style>
     </Page>
