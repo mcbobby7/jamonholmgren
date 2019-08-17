@@ -832,6 +832,7 @@ export default () => {
         Walt using my father-in-law's old John Deere tractor to dump extra sand
         in the pool. Ced is waiting to spread it out.
       </p>
+      <TweetEmbed id="1158475218836267008" />
       <p>Time to add the liner!</p>
       <a
         href="/static/pool/image89.jpg"
