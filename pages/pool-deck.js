@@ -1136,8 +1136,8 @@ export default () => {
         img {
           display: block;
           object-fit: cover;
-          max-width: 400px;
-          max-height: 300px;
+          width: 400px;
+          height: 300px;
         }
         .image-wrapper {
           display: inline-block;
