@@ -7,7 +7,7 @@ import TweetEmbed from "react-tweet-embed";
 export default () => {
   return (
     <Page
-      title="Pool Deck"
+      title="Our Custom Pool Deck"
       description="The true tale of our new above-ground pool and custom-built deck from 2019"
     >
       <h1>The true tale of our new pool and deck.</h1>
