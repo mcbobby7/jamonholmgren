@@ -1149,6 +1149,7 @@ export default () => {
         }
         p {
           clear: left;
+          margin: 15px 0 0 0;
         }
       `}</style>
     </Page>
