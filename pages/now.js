@@ -9,7 +9,7 @@ export default () => {
       <h1>What I'm doing now</h1>
 
       <p>
-        <em>Last updated August 16, 2019. 🎃</em>
+        <em>Last updated September 17, 2019. 🎃</em>
       </p>
 
       <p>
@@ -36,6 +36,10 @@ export default () => {
       </p>
 
       <ul>
+        <li>
+          Traveling a lot for work!{" "}
+          <a href="/talks">Check out my latest conference talks.</a>
+        </li>
         <li>
           Swimming in our new pool and enjoying our new{" "}
           <a href="/pool-deck">Custom Pool Deck</a>

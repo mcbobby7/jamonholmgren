@@ -24,19 +24,8 @@ export default () => {
       <h3>Upcoming</h3>
       <ul>
         <li>
-          I'm planning to give a talk at{" "}
-          <a href="https://react-native.eu/">React Native EU</a> in September.
-        </li>
-        <li>
-          On the same trip as the React Native EU conference, I will also be
-          speaking at <a href="https://reactlive.nl/">React Live Amsterdam!</a>{" "}
-          I can't wait!
-          <br />
-          <TweetEmbed id="1152044689710673920" />
-        </li>
-        <li>
-          After I get home from Europe, the following month (in October) I'll be
-          speaking at a conference in Florida,{" "}
+          In October I'll be speaking with Morgan Laco at a conference in
+          Florida,{" "}
           <a href="https://www.ancientcityruby.com/#/speakers?lang=en&speakerId=7865000000135002">
             Ancient City Ruby/Rails/React
           </a>
@@ -47,6 +36,24 @@ export default () => {
       <h3>Recent</h3>
 
       <ul>
+        <li>
+          I gave a talk at{" "}
+          <a href="https://react-native.eu/">React Native EU</a> in September.
+          I'll post the video when available.
+        </li>
+        <li>
+          On the same trip as the React Native EU conference, I also spoke at{" "}
+          <a href="https://reactlive.nl/">React Live Amsterdam!</a> It was
+          great! I'll post the video when available.
+        </li>
+        <li>
+          I was on React Roundup, a podcast with David Ceddia and Lucas Reis, in
+          August. I talk about Ignite, React Finland, MobX-State-Tree, and my
+          coding background. Have a listen!{" "}
+          <a href="https://devchat.tv/react-round-up/rru-076-ignite-and-the-react-community-with-jamon-holmgren/">
+            RRU 076: Ignite and the React Community with Jamon Holmgren
+          </a>
+        </li>
         <li>
           I was a guest on the panel at{" "}
           <a href="https://devchat.tv/react-native-radio/rnr-128-chain-react-with-jamon-holmgren/">
