@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../components/page";
 import Link from "next/link";
 // import YouTube from "react-youtube";
+import TweetEmbed from "react-tweet-embed";
 
 export default () => {
   return (
@@ -37,6 +38,10 @@ export default () => {
 
       <ul>
         <li>
+          I started playing ice hockey again for the first time in 15 years!{" "}
+          <TweetEmbed id={"1174483867559809025"} />
+        </li>
+        <li>
           Traveling a lot for work!{" "}
           <a href="/talks">Check out my latest conference talks.</a>
         </li>
@@ -55,13 +60,6 @@ export default () => {
         <li>
           <Link prefetch href="/tech">
             <a>Playing with some new languages and frameworks</a>
-          </Link>
-        </li>
-        <li>
-          <Link prefetch href="/talks">
-            <a>
-              Organizing, attending, and speaking at conferences and meetups
-            </a>
           </Link>
         </li>
       </ul>

@@ -67,11 +67,15 @@ export default () => {
       <ul>
         <li>
           Check out our new custom pool deck:{" "}
-          <a href="/pool-deck">Our Custom Pool Deck</a>
+          <Link prefetch href="/pool-deck">
+            Our Custom Pool Deck
+          </Link>
         </li>
         <li>
-          See how I built a home gym for under $3,000:{" "}
-          <a href="/gym">Building My Home Garage Gym</a>
+          See how I built a home gym:{" "}
+          <Link prefetch href="/gym">
+            Building My Home Garage Gym
+          </Link>
         </li>
         <li>
           Check out a cool pathfinding demo I wrote in Elm!{" "}
@@ -79,15 +83,32 @@ export default () => {
         </li>
         <li>
           Listen to a recent Podcast interview:{" "}
-          <a href="https://www.virtualnotdistant.com/podcasts/remote-teams-conversation">
-            21st Century Work Life
+          <a href="https://devchat.tv/react-native-radio/rnr-128-chain-react-with-jamon-holmgren/">
+            React Native Radio #128 - Chain React with Jamon Holmgren
           </a>
         </li>
         <li>
-          Watch a lightning talk I gave at{" "}
+          Watch a 5 minute lightning talk I gave at{" "}
           <a href="https://www.youtube.com/watch?v=DOgT_K5tLxU">ElixirConf</a>
-        </li>
+        </li>{" "}
+        or other{" "}
+        <Link prefetch href="/talks">
+          talk
+        </Link>
+        .
       </ul>
+
+      <p>
+        I built this website in <a href="https://nextjs.org">Next.js</a> and
+        I've had a great experience with it.{" "}
+        <a href="https://twitter.com/jamonholmgren/status/1065447628966514688">
+          Upgrading
+        </a>{" "}
+        is super easy. This website is{" "}
+        <a href="https://github.com/jamonholmgren/jamonholmgren">
+          open source on Github!
+        </a>
+      </p>
 
       <style jsx>{`
         .opening {

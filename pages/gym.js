@@ -5,8 +5,8 @@ import Link from "../components/link";
 export default () => {
   const imgWidth = "600";
   return (
-    <Page title="Building My Home Garage Gym for under $3,000">
-      <h1>Building My Home Garage Gym for under $3,000</h1>
+    <Page title="Building My Home Garage Gym">
+      <h1>Building My Home Garage Gym</h1>
 
       <img
         width={imgWidth}
