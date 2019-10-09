@@ -24,12 +24,8 @@ export default () => {
       <h3>Upcoming</h3>
       <ul>
         <li>
-          In October I'll be speaking with Morgan Laco at a conference in
-          Florida,{" "}
-          <a href="https://www.ancientcityruby.com/#/speakers?lang=en&speakerId=7865000000135002">
-            Ancient City Ruby/Rails/React
-          </a>
-          .
+          With 6 talks in 2019 and almost 90 days away from home, I'm taking a
+          bit of a speaking break now.
         </li>
       </ul>
 
@@ -37,14 +33,27 @@ export default () => {
 
       <ul>
         <li>
-          I gave a talk at{" "}
-          <a href="https://react-native.eu/">React Native EU</a> in September.
-          I'll post the video when available.
+          In October I spoke with Morgan Laco at a conference in Florida,{" "}
+          <a href="https://www.ancientcityruby.com/#/speakers?lang=en&speakerId=7865000000135002">
+            Ancient City Ruby/Rails/React
+          </a>
+          . It's a lovely small conference. I'll post the video when available.
         </li>
         <li>
-          On the same trip as the React Native EU conference, I also spoke at{" "}
+          In September, I spoke at{" "}
           <a href="https://reactlive.nl/">React Live Amsterdam!</a> It was
-          great! I'll post the video when available.
+          great! Here's the video: <br />
+          <YouTube videoId="Pb8MWkQ9GOc" />
+          <br />
+          <TweetEmbed id="1179755402516422659" />
+        </li>
+        <li>
+          On the same trip and before React Live Amsterdam, I gave a talk at{" "}
+          <a href="https://react-native.eu/">React Native EU</a> in September.
+          Check it out! <br />
+          <YouTube videoId="qzkDssF8y9k" />
+          <br />
+          <TweetEmbed id="1181638898272747521" />
         </li>
         <li>
           I was on React Roundup, a podcast with David Ceddia and Lucas Reis, in
