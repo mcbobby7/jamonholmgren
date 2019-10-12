@@ -41,7 +41,7 @@ export default () => {
         }
         .title {
           display: inline-block;
-          font-size: 46px;
+          font-size: 36px;
           text-decoration: none;
           padding: 0 0;
           margin: 10px 0;
@@ -77,9 +77,9 @@ export default () => {
           width: 25px;
           height: 25px;
         }
-        @media (max-width: 750px) {
+        @media (max-width: 760px) {
           .title {
-            font-size: 36px;
+            font-size: 26px;
           }
           :global(#nav) {
             display: flex;

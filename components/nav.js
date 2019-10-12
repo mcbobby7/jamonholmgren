@@ -42,7 +42,7 @@ export default () => (
         flex: 1;
         text-align: center;
       }
-      @media (max-width: 750px) {
+      @media (max-width: 760px) {
         ul {
           display: block;
           padding-left: 0;

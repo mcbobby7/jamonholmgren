@@ -43,7 +43,7 @@ export default props => {
           flex: 1;
         }
 
-        @media (max-width: 750px) {
+        @media (max-width: 760px) {
           .main {
             padding: 5px;
             width: auto;
