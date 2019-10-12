@@ -7,11 +7,8 @@ export default () => {
     <Page title="The personal website of Jamon">
       <div className="photo-wall">
         <img src="/static/family-2018.jpg" alt="My family" />
-        <img
-          src="/static/basketball.jpg"
-          alt="Playing some pick up basketball"
-        />
-        <img src="/static/stage.jpg" alt="At Chain React 2017" />
+        <img src="/static/goalie.jpg" alt="Playing ice hockey" />
+        <img src="/static/stage-2019.jpg" alt="At React Live Amsterdam 2019" />
       </div>
 
       <h2 className="opening">I've loved software for a very long time.</h2>

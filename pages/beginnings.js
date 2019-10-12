@@ -52,7 +52,7 @@ export default () => {
       <p>
         My dad's plans to make the 286 do all of his books quickly and easily
         didn't quite pan out, so he eventually went back and bought a more
-        capable computer -- one that could handle QuickBooks. This 486 SLC
+        capable computer -- one that could handle QuickBooks. This 486DX
         computer came with QBasic! I was thrilled. From age twelve through my
         teenage years, I built hundreds of games, some small and some larger. I
         built text adventure games, top-down tank shooters, space games, a huge{" "}
@@ -81,10 +81,10 @@ export default () => {
         Washington state, dropping out of college.
       </p>
       <p>
-        My first jobs were pretty menial labor. Changing tires and oil at a
-        local tire shop, packing lumber for a house framing crew. Over time, I
-        started taking on side jobs using my computer programming skills --
-        usually building something in MS Excel or Access, using Visual Basic for
+        My first jobs were menial labor. Changing tires and oil at a local tire
+        shop, packing lumber for a house framing crew. Over time, I started
+        taking on side jobs using my computer programming skills -- usually
+        building something in MS Excel or Access, using Visual Basic for
         Applications. I think I charged $15/hour for those projects. For a 19
         year old at the time, I thought it was fair enough, and I got to code
         and get paid for it.
@@ -105,13 +105,13 @@ export default () => {
         id="honeymoon"
       />
       <figcaption>
-        Chyra and me on our honeymoon. Married nearly 14 years now!
+        Chyra and me on our honeymoon. Married nearly 16 years now!
       </figcaption>
       <p>
         In August of 2005, I bought JavaScript, PHP, and MySQL books, and
-        decided to start my own business,{" "}
-        <a href="https://clearsightstudio.com">ClearSight</a>, designing and
-        programming small business websites.
+        decided to start my own business, ClearSight, designing and programming
+        small business websites. I also designed homes and remodels because,
+        well, I needed to pay the bills, and I was very new to web development!
       </p>
       <p>
         Running my own business was really eye-opening to me. When I started, I
