@@ -146,7 +146,6 @@ export default () => {
       <p>
         In mid-2018, once my home was restored
         <Link
-          prefetch
           spaces
           href="https://twitter.com/jamonholmgren/status/945465737874829317"
         >

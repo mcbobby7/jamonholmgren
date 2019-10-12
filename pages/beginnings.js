@@ -174,19 +174,19 @@ export default () => {
       <figcaption>My family - my wife Chyra and our four kids</figcaption>
       <p className="next-steps">
         <em>
-          <Link prefetch href="/now">
+          <Link href="/now">
             <a>Read more about what I'm doing now</a>
           </Link>
         </em>
         &bull;
         <em>
-          <Link prefetch href="/tech">
+          <Link href="/tech">
             <a>Check out the tech I'm currently working in or exploring</a>
           </Link>
         </em>
         &bull;
         <em>
-          <Link prefetch href="/archive">
+          <Link href="/archive">
             <a>Archive of old blog posts I've kept around</a>
           </Link>
         </em>

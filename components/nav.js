@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Item = ({ href, children }) => (
   <li>
-    <Link prefetch href={href}>
+    <Link href={href}>
       <a>{children}</a>
     </Link>
 

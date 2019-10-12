@@ -7,7 +7,6 @@ module.exports = {
   "/hex": "/archive/hex",
   "/iap": "/archive/iap",
   "/live": "/archive/live",
-  "/next": "/archive/next",
   "/uninstalling-united-airlines-drm-plugin":
     "/archive/uninstalling-united-airlines-drm-plugin",
   "/inspect2015": "/archive/inspect2015",

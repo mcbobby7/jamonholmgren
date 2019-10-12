@@ -34,7 +34,7 @@ export default () => {
 
       <p>
         Read more about it in{" "}
-        <Link prefetch href="/beginnings">
+        <Link href="/beginnings">
           <a>Beginnings</a>
         </Link>
         .
@@ -64,15 +64,11 @@ export default () => {
       <ul>
         <li>
           Check out our new custom pool deck:{" "}
-          <Link prefetch href="/pool-deck">
-            Our Custom Pool Deck
-          </Link>
+          <Link href="/pool-deck">Our Custom Pool Deck</Link>
         </li>
         <li>
           See how I built a home gym:{" "}
-          <Link prefetch href="/gym">
-            Building My Home Garage Gym
-          </Link>
+          <Link href="/gym">Building My Home Garage Gym</Link>
         </li>
         <li>
           Check out a cool pathfinding demo I wrote in Elm!{" "}
@@ -88,11 +84,7 @@ export default () => {
           Watch a 5 minute lightning talk I gave at{" "}
           <a href="https://www.youtube.com/watch?v=DOgT_K5tLxU">ElixirConf</a>
         </li>{" "}
-        or other{" "}
-        <Link prefetch href="/talks">
-          talk
-        </Link>
-        .
+        or other <Link href="/talks">talk</Link>.
       </ul>
 
       <p>

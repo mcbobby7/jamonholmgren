@@ -4,7 +4,7 @@ import Link from "next/link";
 export default () => (
   <header>
     <div>
-      <Link prefetch href="/">
+      <Link href="/">
         <a>
           <span className="title">Jamon Holmgren</span>
         </a>

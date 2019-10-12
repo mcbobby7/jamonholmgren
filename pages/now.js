@@ -51,14 +51,11 @@ export default () => {
         </li>
         <li>Our family has a cat, Willow, who is two years old.</li>
         <li>
-          I'm continuing to work out in my{" "}
-          <Link prefetch href="/gym">
-            new home gym
-          </Link>
+          I'm continuing to work out in my <Link href="/gym">new home gym</Link>
           .
         </li>
         <li>
-          <Link prefetch href="/tech">
+          <Link href="/tech">
             <a>Playing with some new languages and frameworks</a>
           </Link>
         </li>

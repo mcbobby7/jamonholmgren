@@ -12,7 +12,7 @@ export default () => {
 
       <p>
         A month ago, I sat down at my computer and wrote{" "}
-        <Link prefetch href="/ten">
+        <Link href="/ten">
           <a>Ten Years</a>
         </Link>
         , looking back at the decade I have owned ClearSight.
