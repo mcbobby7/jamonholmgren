@@ -14,7 +14,7 @@ const Item = ({ href, children }) => (
         display: block;
         padding: 10px 8px;
         font-size: 18px;
-        text-decoration: none;
+        text-decoration: underline;
         color: #000;
         transition: 0.2s;
       }
@@ -39,11 +39,15 @@ export default () => (
       ul {
         list-style-type: none;
         display: flex;
+        flex: 1;
+        text-align: center;
       }
       @media (max-width: 750px) {
         ul {
           display: block;
           padding-left: 0;
+          padding-right: 0;
+          text-align: right;
         }
       }
     `}</style>
