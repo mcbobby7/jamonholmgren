@@ -64,11 +64,15 @@ export default () => {
       <ul>
         <li>
           Check out our new custom pool deck:{" "}
-          <Link href="/pool-deck">Our Custom Pool Deck</Link>
+          <Link href="/pool-deck">
+            <a>Our Custom Pool Deck</a>
+          </Link>
         </li>
         <li>
           See how I built a home gym:{" "}
-          <Link href="/gym">Building My Home Garage Gym</Link>
+          <Link href="/gym">
+            <a>Building My Home Garage Gym</a>
+          </Link>
         </li>
         <li>
           Check out a cool pathfinding demo I wrote in Elm!{" "}
@@ -84,7 +88,11 @@ export default () => {
           Watch a 5 minute lightning talk I gave at{" "}
           <a href="https://www.youtube.com/watch?v=DOgT_K5tLxU">ElixirConf</a>
         </li>{" "}
-        or other <Link href="/talks">talk</Link>.
+        or other{" "}
+        <Link href="/talks">
+          <a>talk</a>
+        </Link>
+        .
       </ul>
 
       <p>

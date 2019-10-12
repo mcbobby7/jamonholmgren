@@ -20,7 +20,7 @@ export default () => {
         >
           MENU
         </a>
-        <div id="nav" class={menuOpen ? "menu-open" : "menu-closed"}>
+        <div id="nav" className={menuOpen ? "menu-open" : "menu-closed"}>
           <Nav />
         </div>
       </div>
@@ -56,7 +56,8 @@ export default () => {
           border-style: solid;
         }
         :global(#nav) {
-          display: flex;
+          display: block;
+          float: right;
           vertical-align: middle;
           position: relative;
           top: 10px;
@@ -87,6 +88,7 @@ export default () => {
             display: flex;
             height: 0;
             transition: height 0.5s, opacity 0.5s;
+            float: none;
           }
           :global(#nav.menu-open) {
             height: auto;

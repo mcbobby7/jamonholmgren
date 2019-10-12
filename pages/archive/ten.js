@@ -227,7 +227,11 @@ export default () => {
       </p>
 
       <p>
-        (Note: <Link href="/archive/next">here is that announcement!</Link>)
+        (Note:{" "}
+        <Link href="/archive/next">
+          <a>here is that announcement!</a>
+        </Link>
+        )
       </p>
 
       <p>
