@@ -8,11 +8,14 @@ export default () => {
     <Page title="Building My Home Garage Gym">
       <h1>Building My Home Garage Gym</h1>
 
+      <img width={imgWidth} alt="My home gym" src="/static/gym/gym-wide.jpg" />
+      <img width={imgWidth} alt="My home gym" src="/static/gym/gym-tall.jpg" />
       <img
         width={imgWidth}
         alt="My home gym"
-        src="https://user-images.githubusercontent.com/1479215/50796325-06c4f700-1286-11e9-97a0-366a793c6fe9.jpg"
+        src="/static/gym/gym-closeup.jpg"
       />
+      <img width={imgWidth} alt="My home gym" src="/static/gym/gym-jamon.jpg" />
 
       <h2 id="components">Gym Components</h2>
       <p>
@@ -122,7 +125,7 @@ export default () => {
           ($210)
         </li>
         <li>
-          <strong>[TODO] Mirrors: </strong>
+          <strong>Mirrors: </strong>
           <a href="https://www.homedepot.com/p/Glacier-Bay-36-in-W-x-60-in-L-Polished-Edge-Bath-Mirror-81178/205513132">
             (3) 36 in. W x 60 in. L Polished Edge Bath Mirrors
           </a>{" "}
@@ -388,8 +391,10 @@ export default () => {
       </h3>
 
       <p>
-        This rowing machine is decent. If you have a bigger budget you might
-        consider a higher quality one. Otherwise, this works fine.
+        This rowing machine is okay, but I don't use it all that often. It feels
+        a bit cheap and has broken in small but annoying ways already. If you
+        have a bigger budget you might consider a higher quality one. I'm not
+        sure rowing is for me. I do hockey for cardio now.
       </p>
 
       <img
@@ -399,16 +404,15 @@ export default () => {
       />
 
       <h3 id="mirrors">
-        <strong>TODO: </strong>
         <a href="https://www.homedepot.com/p/Glacier-Bay-36-in-W-x-60-in-L-Polished-Edge-Bath-Mirror-81178/205513132">
           (3) 36 in. W x 60 in. L Polished Edge Bath Mirrors
         </a>
       </h3>
 
       <p>
-        I haven't bought or installed these yet, but I calculate they will fit
-        perfectly on the wall. (For now, I have a crappy leftover mirror tacked
-        haphazardly behind the rack.)
+        These are perfect for my gym! They're rugged and although there is a
+        little bit of distortion it's hardly noticeable. For the price, I
+        highly, highly recommend them.
       </p>
 
       <h3 id="other">Other items</h3>
@@ -426,8 +430,8 @@ export default () => {
       <h3 id="strong">BONUS: Strong Fitness App Workout Routines</h3>
 
       <p>
-        I've made a few Strong Fitness routines that I really love. Click each
-        link to download the routine to your phone.
+        I've made or acquired a few Strong Fitness routines that I really love.
+        Click each link to download the routine to your phone.
       </p>
 
       <ul>
