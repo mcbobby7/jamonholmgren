@@ -29,10 +29,7 @@ export default () => {
         header {
           display: flex;
           font-size: 18px;
-           {
-            /* font-family: Georgia, Cambria, 'Times New Roman', Times, serif; */
-          }
-          font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+          font-family: "Roboto Mono", monospace;
           font-weight: 400;
         }
         #head {
@@ -66,7 +63,7 @@ export default () => {
           flex: 1;
         }
         :global(#menu-toggle) {
-          font-family: "Source Sans Pro", "Open Sans", sans-serif;
+          font-family: "Roboto Mono", monospace;
           font-size: 12px;
           display: none;
           float: right;
