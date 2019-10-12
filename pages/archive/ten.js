@@ -1,5 +1,6 @@
 import React from "react";
 import Page from "../../components/page";
+import Link from "next/link";
 // import Link from 'next/link'
 
 export default () => {
@@ -223,6 +224,10 @@ export default () => {
         younger sisters to look after. I’ve managed to reduce my workdays to a
         more reasonable 9 hours per day. And there are some very exciting things
         in the works that I’m looking forward to announcing soon.
+      </p>
+
+      <p>
+        (Note: <Link href="/archive/next">here is that announcement!</Link>)
       </p>
 
       <p>
