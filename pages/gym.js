@@ -194,7 +194,7 @@ export default () => {
 
       <p>
         When folded against the wall, it takes up very little room. I don't
-        however fold it up very often -- there really isn't any point, since
+        however fold it up very often &mdash; there really isn't any point, since
         there's plenty of room to do everything we need to do, and we don't park
         in that garage bay. It takes about 2 minutes to fold up or unfold. The
         J-hooks are solid and it feels pro. I'm 6'-4" and the pull-up bar is

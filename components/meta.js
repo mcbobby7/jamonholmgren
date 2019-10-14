@@ -29,30 +29,31 @@ export default props => (
         font-family: "Source Sans Pro", "Open Sans", sans-serif;
         /* font-family: "Playfair Display", Helvetica, Arial, sans-serif; */
 
-        font-size: 17px;
-        padding: 40px 10px;
+        font-size: 1rem;
+        padding: 1em 0.5em;
         margin: 0;
-        line-height: 1.5em;
+        line-height: 1.5;
         background-color: white;
       }
+      
       * {
         box-sizing: border-box;
       }
 
       h1,
       h2 {
+        font-size: 2rem;
         font-weight: normal;
-        line-height: 1.25em;
+        line-height: 1.25;
         font-family: "Roboto Mono", monospace;
       }
 
       a {
-        color: #6b3912;
+        color: firebrick;
       }
 
       p {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin: 0.5em 0;
       }
 
       /* loading progress bar styles */

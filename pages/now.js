@@ -2,6 +2,16 @@ import React from "react";
 import Page from "../components/page";
 import Link from "next/link";
 // import YouTube from "react-youtube";
+/*
+  Something to keep your eye on.
+  
+  The console is throwing warnings about `componentWillUpdate()` which will be
+  deprecated in React 17 - maybe - and TweetEmbed v-1.2.2 still uses it, at
+  https://github.com/capaj/react-tweet-embed/blob/master/src/tweet-embed.tsx#L99.
+
+  See the reactjs blog for more information,
+  https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html.
+ */
 import TweetEmbed from "react-tweet-embed";
 
 export default () => {
@@ -51,8 +61,10 @@ export default () => {
         </li>
         <li>Our family has a cat, Willow, who is two years old.</li>
         <li>
-          I'm continuing to work out in my <Link href="/gym">new home gym</Link>
-          .
+          I'm continuing to work out in my
+          <Link href="/gym">
+            <a>new home gym</a>
+          </Link>.
         </li>
         <li>
           <Link href="/tech">

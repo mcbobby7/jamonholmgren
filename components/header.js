@@ -1,28 +1,23 @@
-import { useState } from "react";
 import Nav from "./nav";
 import Link from "next/link";
 
-export default () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
+import { withRouter } from 'next/router';
+// Use withRouter to wrap the Header component, so we can pass the current
+// pathname to the Nav component.
+function Header({ router }) {
   return (
     <header>
-      <div id="head">
+      <div id="links">
         <Link href="/">
-          <a>
-            <span className="title">Jamon Holmgren</span>
-          </a>
+          <h1>
+            <a className="title" role="link">Jamon Holmgren</a>
+          </h1>
         </Link>
-        <a
-          href="javascript:void(0);"
-          id="menu-toggle"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          MENU
-        </a>
-        <div id="nav" className={menuOpen ? "menu-open" : "menu-closed"}>
-          <Nav />
-        </div>
+
+        <nav role="nav">
+          {/* Pass current path here.  */}
+          <Nav current={router.pathname}/>
+        </nav>
       </div>
 
       <style jsx>{`
@@ -32,75 +27,32 @@ export default () => {
           font-family: "Roboto Mono", monospace;
           font-weight: 400;
         }
-        #head {
+        #links {
           flex: 1;
           align-items: center;
         }
-        :global(#head a) {
-          color: #000000;
-        }
+
         .title {
           display: inline-block;
-          font-size: 36px;
+          font-size: 2rem;
+          cursor: pointer;
           text-decoration: none;
           padding: 0 0;
           margin: 10px 0;
-          color: #000;
           vertical-align: middle;
           line-height: 1.4;
           border-width: 0 0 3px;
           border-color: #dadada;
           border-style: solid;
         }
-        :global(#nav) {
-          display: block;
-          float: right;
-          vertical-align: middle;
-          position: relative;
-          top: 10px;
-          height: auto;
-          overflow: hidden;
-          flex: 1;
-        }
-        :global(#menu-toggle) {
-          font-family: "Roboto Mono", monospace;
-          font-size: 12px;
-          display: none;
-          float: right;
-          padding: 10px;
-          text-decoration: none;
-          text-align: right;
-          position: relative;
-          top: 20px;
-        }
-        :global(#menu-toggle img) {
-          width: 25px;
-          height: 25px;
-        }
-        @media (max-width: 760px) {
-          .title {
-            font-size: 26px;
-          }
-          :global(#nav) {
-            display: flex;
-            height: 0;
-            transition: height 0.5s, opacity 0.5s;
-            float: none;
-          }
-          :global(#nav.menu-open) {
-            height: auto;
-            transition: height 0.5s, opacity 0.5s;
-          }
-          :global(#nav.menu-closed) {
-            height: 0;
-            opacity: 0;
-            transition: height 0.5s, opacity 0.5s;
-          }
-          :global(#menu-toggle) {
-            display: block;
-          }
+
+        nav {
+          display: flex;
+          transition: height 0.5s, opacity 0.5s;
         }
       `}</style>
     </header>
   );
 };
+
+export default withRouter(Header);

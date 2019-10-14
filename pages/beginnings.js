@@ -10,8 +10,8 @@ export default () => {
         I grew up just outside a small town in northwest Oregon, called
         Clatskanie. My dad was a millwright and eventually started his own small
         excavation business, and my mom took care of me and my eight siblings.
-        Yes, you read that right -- I have eight awesome siblings! Three sisters
-        and five brothers. And no, we're not Mormon nor Catholic -- we're
+        Yes, you read that right &mdash; I have eight awesome siblings! Three sisters
+        and five brothers. And no, we're not Mormon nor Catholic &mdash; we're
         Lutherans, actually.
       </p>
       <p>
@@ -21,16 +21,22 @@ export default () => {
         by vast swathes of uninhabited timberland. I spent my younger years
         exploring the woods with my dog and, later, some of my younger brothers.
       </p>
-      <img src="/static/dad-jamon-fish.jpg" id="dad-jamon-fish" />
-      <figcaption>My dad and me after a fishing trip</figcaption>
+      <img
+        src="/static/dad-jamon-fish.jpg"
+        aria-labelledby="dad-jamon-fish-caption"
+      />
+      <figcaption id="dad-jamon-fish-caption">My dad and me after a fishing trip</figcaption>
       <p>
         In the early 90s, my dad bought his first computer to do his small
         business books. I had already started to play around with the Apple IIes
         and Commodore 64 at my grade school, so this new 286 was of intense
         interest to me.
       </p>
-      <img src="/static/old-286-computer.png" id="first-286-computer" />
-      <figcaption>
+      <img
+        src="/static/old-286-computer.png"
+        aria-labelledby="first-286-computer-caption"
+      />
+      <figcaption id="first-286-computer-caption">
         My dad's first computer, a 286. I hooked it up to an LCD screen a few
         years ago and it still worked!
       </figcaption>
@@ -39,20 +45,20 @@ export default () => {
         Undeterred, I dug into batch files, reading the source code and trying
         to puzzle out what they did. I even tried to manipulate the machine code
         of a compiled exe file. Unfortunately, I learned the benefit of making a
-        good backup before doing that -- I permanently damaged a game and never
+        good backup before doing that &mdash; I permanently damaged a game and never
         did get it working again after that.
       </p>
       <img
         src="/static/jamon-drew-at-computer.jpg"
-        id="jamon-drew-at-computer"
+        aria-labelledby="jamon-drew-at-computer-caption"
       />
-      <figcaption>
+      <figcaption id="jamon-drew-at-computer-caption">
         My brother Drew and me playing Chuck Yeager's Air Combat on the 286
       </figcaption>
       <p>
         My dad's plans to make the 286 do all of his books quickly and easily
         didn't quite pan out, so he eventually went back and bought a more
-        capable computer -- one that could handle QuickBooks. This 486DX
+        capable computer &mdash; one that could handle QuickBooks. This 486DX
         computer came with QBasic! I was thrilled. From age twelve through my
         teenage years, I built hundreds of games, some small and some larger. I
         built text adventure games, top-down tank shooters, space games, a huge{" "}
@@ -83,7 +89,7 @@ export default () => {
       <p>
         My first jobs were menial labor. Changing tires and oil at a local tire
         shop, packing lumber for a house framing crew. Over time, I started
-        taking on side jobs using my computer programming skills -- usually
+        taking on side jobs using my computer programming skills &mdash; usually
         building something in MS Excel or Access, using Visual Basic for
         Applications. I think I charged $15/hour for those projects. For a 19
         year old at the time, I thought it was fair enough, and I got to code
@@ -101,10 +107,9 @@ export default () => {
       </p>
       <img
         src="/static/jamon-chyra-honeymoon.jpg"
-        alt="My wife Chyra and me on our honeymoon"
-        id="honeymoon"
+        aria-labelledby="honeymoon-caption"
       />
-      <figcaption>
+      <figcaption id="honeymoon-caption">
         Chyra and me on our honeymoon. Married nearly 16 years now!
       </figcaption>
       <p>
@@ -123,10 +128,9 @@ export default () => {
       </p>
       <img
         src="/static/desk-setup.jpg"
-        alt="My desk setup in those days"
-        id="family"
+        aria-labelledby="family-caption"
       />
-      <figcaption>My desk setup in those days</figcaption>
+      <figcaption id="family-caption">My desk setup in those days</figcaption>
       <p>
         I was "working remotely" and didn't even know the term at the time. I
         loved it!
@@ -166,12 +170,11 @@ export default () => {
       <img
         src="/static/jamonholmgren.jpg"
         alt="Portrait photo of Jamon Holmgren, quite handsome, or so my wife tells me"
-        id="jamon"
       />
 
       <img src="/static/jamon-family.JPG" alt="My family" id="jamon-family" />
-
       <figcaption>My family - my wife Chyra and our four kids</figcaption>
+
       <p className="next-steps">
         <em>
           <Link href="/now">

@@ -7,11 +7,11 @@ import TweetEmbed from "react-tweet-embed";
 export default () => {
   return (
     <Page
-      title="Talks -- recent and upcoming"
+      title="Talks &mdash; Recent and Upcoming"
       description="Talks I have given recently as well as upcoming talks and meetups"
     >
-      <h1>Talks -- Recent and Upcoming</h1>
-
+      <h2>Talks &mdash; Recent and Upcoming</h2>
+      
       <p>
         I sometimes give talks at conferences (when I'm not{" "}
         <a href="https://infinite.red/ChainReactConf">helping organize one</a>)
@@ -40,28 +40,36 @@ export default () => {
           . It's a lovely small conference. I'll post the video when available.
         </li>
         <li>
+          <p>
           In September, I spoke at{" "}
           <a href="https://reactlive.nl/">React Live Amsterdam!</a> It was
-          great! Here's the video: <br />
+          great! Here's the video:
+          </p>
+          <br />
           <YouTube videoId="Pb8MWkQ9GOc" />
           <br />
           <TweetEmbed id="1179755402516422659" />
         </li>
         <li>
+          <p>
           On the same trip and before React Live Amsterdam, I gave a talk at{" "}
           <a href="https://react-native.eu/">React Native EU</a> in September.
-          Check it out! <br />
+          Check it out!
+          </p>
+          <br />
           <YouTube videoId="qzkDssF8y9k" />
           <br />
           <TweetEmbed id="1181638898272747521" />
         </li>
         <li>
+          <p>
           I was on React Roundup, a podcast with David Ceddia and Lucas Reis, in
           August. I talk about Ignite, React Finland, MobX-State-Tree, and my
           coding background. Have a listen!{" "}
           <a href="https://devchat.tv/react-round-up/rru-076-ignite-and-the-react-community-with-jamon-holmgren/">
             RRU 076: Ignite and the React Community with Jamon Holmgren
           </a>
+          </p>
         </li>
         <li>
           I was a guest on the panel at{" "}
@@ -71,33 +79,41 @@ export default () => {
           for the July 30, 2019 edition.
         </li>
         <li>
+          <p>
           I was interviewed in June for DistantJobs podcast. They just launched
-          a new website -- check it out!{" "}
+          a new website &mdash; check it out!{" "}
+          </p>
           <a href="https://distantjob.com/blog/podcasts/leading-a-fully-remote-team-with-jamon-holmgren/">
             Leading a Fully Remote Team with Jamon Holmgren
           </a>
         </li>
         <li>
+          <p>
           I am an organizer and was on the speaker panel at{" "}
           <a href="https://infinite.red/ChainReactConf">Chain React 2019</a> in
           July, 2019! It was an amazing conference all around. Here's the video
           of my panel appearance.
+          </p>
           <br />
           <YouTube videoId="Jm19JlVukak" />
           <br />
           <TweetEmbed id="1149780351633391618" />
         </li>
         <li>
+          <p>
           I was a backup speaker at{" "}
           <a href="https://runningremote.com">RunningRemote</a> in Bali in June.
           While I didn't give a talk, I did get a chance to be at that amazing
           conference, which I really loved.
+          </p>
           <br />
           <TweetEmbed id="1144773212791697408" />
         </li>
         <li>
+          <p>
           I spoke at <a href="https://react-finland.fi">React Finland 2019</a>!
           You can see the video here:
+          </p>
           <br />
           <YouTube videoId="gTG8_9Zv0YI" />
           <br />
@@ -107,12 +123,14 @@ export default () => {
           </a>
         </li>
         <li>
+          <p>
           While I was in Finland, I also gave a talk about React Native WebView
           at{" "}
           <a href="https://meetabit.com/events/react-helsinki-april-2019">
             React Helsinki
           </a>
           ! They have a video, which I will post when it's available.
+          </p>
           <br />
           {/* <YouTube videoId="gTG8_9Zv0YI" /> */}
           <br />
@@ -130,12 +148,14 @@ export default () => {
           February 29. It went really well!
         </li>
         <li>
+          <p>
           I was the first speaker at the new meetup in Vancouver, Washington,
           called{" "}
           <a href="https://www.meetup.com/Vancouver-Full-Stack/events/258023247/">
             Vancouver Full Stack
           </a>
           , ! I spoke about Modern JavaScript.
+          </p>
           <br />
           <YouTube videoId="wXvXcrjgiXw" />
         </li>
@@ -182,9 +202,11 @@ export default () => {
           - September 29, 2017 - Portland, Oregon
         </li>
         <li>
+          <p>
           <a href="https://elixirconf.com">ElixirConf 2017</a> September 7-8,
           2017 - Bellevue, Washington - I gave a lightning talk titled "Demoing
           Thesis - a Phoenix CMS".
+          </p>
           <br />
           <YouTube videoId="DOgT_K5tLxU" />
         </li>
@@ -238,6 +260,16 @@ export default () => {
           <a href="https://remote.works/episode/2/transcript">transcript</a>.
         </li>
       </ul>
+
+      <style jsx>{`
+        li {
+          margin-bottom: 2em;
+        }
+
+        br ~ * {
+          margin-top: 2em;
+        }
+      `}</style>
     </Page>
   );
 };

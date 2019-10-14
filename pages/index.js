@@ -59,7 +59,7 @@ export default () => {
         <a href="mailto:jamon@infinite.red">jamon@infinite.red</a>.
       </p>
 
-      <h4>Or...</h4>
+      <h3>Or...</h3>
 
       <ul>
         <li>
@@ -87,16 +87,18 @@ export default () => {
         <li>
           Watch a 5 minute lightning talk I gave at{" "}
           <a href="https://www.youtube.com/watch?v=DOgT_K5tLxU">ElixirConf</a>
-        </li>{" "}
-        or other{" "}
-        <Link href="/talks">
-          <a>talk</a>
-        </Link>
-        .
+          {" "}
+          or other{" "}
+          <Link href="/talks">
+            <a>talks</a>
+          </Link>.
+        </li>
       </ul>
 
+      <hr />
+
       <p>
-        I built this website in <a href="https://nextjs.org">Next.js</a> and
+        P.S. I built this website in <a href="https://nextjs.org">Next.js</a> and
         I've had a great experience with it.{" "}
         <a href="https://twitter.com/jamonholmgren/status/1065447628966514688">
           Upgrading
@@ -108,6 +110,13 @@ export default () => {
       </p>
 
       <style jsx>{`
+        hr {
+          background: lightgray;
+          height: 0.15rem;
+          border: none;
+          margin: 1em 0.25em;
+        }
+
         .opening {
           font-weight: normal;
           font-style: italic;
@@ -117,17 +126,16 @@ export default () => {
           display: flex;
           justify-content: space-between;
           flex-wrap: wrap;
+          margin: 2em 0;
         }
         .photo-wall img {
-          width: 300px;
-          height: 300px;
-        }
+          /* Let browser handle scaling... */
+          height: 33%;
+          width: 33%;
 
-        @media (max-width: 920px) {
-          .photo-wall img {
-            width: 33%;
-            height: 33%;
-          }
+          /* ...up to our max dimensions. */
+          max-height: 300px;
+          max-width: 300px;
         }
       `}</style>
     </Page>

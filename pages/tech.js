@@ -9,7 +9,7 @@ export default () => {
       title="My favorite tech"
       description="All about my favorite technologies and what I am currently learning"
     >
-      <h1>My Favorite Tech (for now)</h1>
+      <h2>My Favorite Tech (for now)</h2>
 
       <p>
         If there's one thing I've learned, it's that I love to explore new
