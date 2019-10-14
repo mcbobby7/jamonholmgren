@@ -25,6 +25,8 @@ $ ./bin/deploy
 
 While this website is a rather humble endeavor, I did receive inspiration from [Matt Lee](https://mat.tl/) and [Jason Brown](http://browniefed.com/). Thanks, guys.
 
+There is a design project where you are free to append comments. You can find it in [InVision](https://invis.io/BTUCQ5Z2PVS)
+
 ## License
 
 The website source code (excluding written content and images) is licensed MIT and free to use as you see fit. However, the content, including but not limited to copy and images, is mine. Please don't use without my written and explicit permission.
