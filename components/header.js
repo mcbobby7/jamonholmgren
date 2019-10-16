@@ -1,7 +1,7 @@
 import Nav from "./nav";
 import Link from "next/link";
 
-import { withRouter } from 'next/router';
+import { withRouter } from "next/router";
 // Use withRouter to wrap the Header component, so we can pass the current
 // pathname to the Nav component.
 function Header({ router }) {
@@ -10,13 +10,15 @@ function Header({ router }) {
       <div id="links">
         <Link href="/">
           <h1>
-            <a className="title" role="link">Jamon Holmgren</a>
+            <a className="title" role="link">
+              Jamon Holmgren
+            </a>
           </h1>
         </Link>
 
         <nav role="nav">
           {/* Pass current path here.  */}
-          <Nav current={router.pathname}/>
+          <Nav current={router.pathname} />
         </nav>
       </div>
 
@@ -53,6 +55,6 @@ function Header({ router }) {
       `}</style>
     </header>
   );
-};
+}
 
 export default withRouter(Header);

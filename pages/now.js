@@ -75,11 +75,18 @@ export default () => {
 
       <p>
         <img
-          width="468"
           alt="derek sivers tweet"
           src="https://cloud.githubusercontent.com/assets/1479215/19919313/1452e898-a08f-11e6-9e7c-3fc212129f29.png"
         />
       </p>
+      <style jsx>
+        {`
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        `}
+      </style>
     </Page>
   );
 };

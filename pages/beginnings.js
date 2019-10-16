@@ -198,6 +198,8 @@ export default () => {
         img {
           display: block;
           margin: 10px auto;
+          max-width: 100%;
+          height: auto;
         }
         figcaption {
           font-family: "Source Sans Pro", "Open Sans", sans-serif;

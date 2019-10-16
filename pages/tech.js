@@ -1,7 +1,7 @@
 import React from "react";
 import Page from "../components/page";
-import YouTube from "react-youtube";
 import TweetEmbed from "react-tweet-embed";
+import YouTubeEmbed from "../components/youtube-embed";
 
 export default () => {
   return (
@@ -58,9 +58,7 @@ export default () => {
         <a href="https://github.com/infinitered/thesis-phoenix">Thesis</a>. It's
         really slick, although not a lot of people know about it.
       </p>
-
-      <YouTube videoId="DOgT_K5tLxU" />
-
+      <YouTubeEmbed id="DOgT_K5tLxU" />
       <h3>Next.js, Now.sh</h3>
 
       <p>
