@@ -1,7 +1,6 @@
 import React from "react";
 // import Link from "next/link";
 import Page from "../components/page";
-import YouTube from "react-youtube";
 import TweetEmbed from "react-tweet-embed";
 
 export default () => {

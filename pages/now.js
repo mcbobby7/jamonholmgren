@@ -1,7 +1,6 @@
 import React from "react";
 import Page from "../components/page";
 import Link from "next/link";
-// import YouTube from "react-youtube";
 /*
   Something to keep your eye on.
   
@@ -64,7 +63,8 @@ export default () => {
           I'm continuing to work out in my
           <Link href="/gym">
             <a>new home gym</a>
-          </Link>.
+          </Link>
+          .
         </li>
         <li>
           <Link href="/tech">
