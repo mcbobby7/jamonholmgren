@@ -55,7 +55,7 @@ export default () => {
             <a href="https://react-native.eu/">React Native EU</a> in September.
             Check it out! <br />{" "}
           </p>
-          <YouTubeEmbed id="qzkDssF8y9k" />
+          <YouTubeEmbed id="Wx9slbOTD6Q" />
           <TweetEmbed id="1181638898272747521" />
         </li>
         <li>
