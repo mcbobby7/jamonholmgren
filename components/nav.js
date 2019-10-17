@@ -13,14 +13,12 @@ const Item = ({ href, current, children }) => {
 
     <style jsx>{`
       li {
-        flex: 1;
+        padding: 0 0.5rem;
       }
       a {
-        display: block;
-        padding: 10px 8px;
-        font-size: 18px;
-        text-decoration: underline;
-        transition: 0.2s;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
       }
       a:hover {
         transition: 0.2s;
@@ -28,13 +26,12 @@ const Item = ({ href, current, children }) => {
          * This color is a placeholder value to contrast with the global a tag
          * color of firebrick (see meta.js).
          */
-        color: green;
+        color: #1890FF;
         font-weight: bold;
       }
 
       [aria-current="page"] {
-        color: inherit;
-        font-weight: bold;
+        color: #1890FF;
       }
     `}</style>
   </li>
@@ -63,7 +60,10 @@ export default function Nav({ current }) {
 
       <style jsx>{`
         ul {
-          list-style-type: none;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
 
           /*
              Have to remove user agent margin and padding when removing list
@@ -74,11 +74,6 @@ export default function Nav({ current }) {
 
           display: flex;
           flex: 1;
-
-          /* Handle narrow viewport by wrapping without media queries */
-          flex-flow: row wrap;
-
-          text-align: center;
         }
       `}</style>
     </ul>

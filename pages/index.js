@@ -3,7 +3,7 @@ import Link from "next/link";
 import Page from "../components/page";
 
 export default () => {
-  return (
+  return ( 
     <Page title="The personal website of Jamon">
       <div className="photo-wall">
         <img src="/static/family-2018.jpg" alt="My family" />
