@@ -32,7 +32,7 @@ class sideDrawer extends Component {
                             <Link href="/talks">
                                 <a className="link">talks</a>
                             </Link>
-                            <hr style={{ color: 'red', marginRight: '40px' }} />
+                            <hr style={{ marginRight: '40px' }} />
                         </li>
                         <li>
                             <Link href="/connect">

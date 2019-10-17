@@ -13,12 +13,10 @@ class Toolbar extends Component {
                         <DrawerToggleButton click={this.props.drawerClickHandler} />
                     </div>
                     <div className="toolbar__logo">
-                    <Link href="/">
-                        <h1>
+                        <Link href="/beginnings">
                             <a className="title" role="link">
                             Jamon Holmgren
                             </a>
-                        </h1>
                     </Link>
                     </div>
                     <div className="spacer" />
